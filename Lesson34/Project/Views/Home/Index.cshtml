@@ -1,0 +1,68 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Home Page";
+}
+ @* @Html.RenderPartialAsync("Banner")*@
+ <partial name="Banner" />
+ <hr />
+ <!-- Nút bấm-->
+ <button id="loadAjax" class="btn btn-sm btn-primary">Click load book từ partialResult</button>
+ <hr />
+ <!-- Nội dung sec được load từ partial view vào đây -->
+ <div id="data-form-ajax" class="row">Loading data....</div>
+<div>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+                <img src="./images/banner/55837bb691e87516b96155815f7f538e.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+                <img src="./images/banner/67800854-4b8cb00a63cfe388adab844fa1c9d5b6.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+                <img src="./images/banner/khach-san-ha-noi-muong-thanh-1707929442.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+                <img src="./images/banner/phong-khach-san-xavia-quy-nhon-quynhonhotel.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Gọi sự kiện click vào nút bấm có id = "loadAjax"
+        $('#loadAjax').click(function() {
+            // Thông qua ajax load nội dung từ partial view vào id = "data-from-ajax"
+            $('#data-form-ajax').load("/Book/PopularBook");
+        })
+    </script>
+}
