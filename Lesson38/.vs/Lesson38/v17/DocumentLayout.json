@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson38\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{594684CC-E408-4059-A6F8-7F5DC75F5449}|Lab03\\Lab03.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson38\\lab03\\views\\shared\\my_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{594684CC-E408-4059-A6F8-7F5DC75F5449}|Lab03\\Lab03.csproj|solutionrelative:lab03\\views\\shared\\my_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "my_layout.cshtml",
+              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson38\\Lab03\\Views\\Shared\\my_layout.cshtml",
+              "RelativeDocumentMoniker": "Lab03\\Views\\Shared\\my_layout.cshtml",
+              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson38\\Lab03\\Views\\Shared\\my_layout.cshtml",
+              "RelativeToolTip": "Lab03\\Views\\Shared\\my_layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T04:21:51.649Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
