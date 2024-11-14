@@ -34,43 +34,88 @@ namespace Lab04.Controllers
         // POST: PeoplesController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public ActionResult Create(People model)
         {
             try
             {
+                // Upload file vào thư mục wwwroot/images/avatar
+                var files = HttpContext.Request.Form.Files;
+                // using System.Linq
+                if (files.Count > 0 && files[0].Length > 0)
+                {
+                    var file = files[0];
+                    var fileName = file.FileName;
+                    // Nhớ tạo thư mục avatar trong thư mục wwwroot/images
+                    // using System.IO
+                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\images\\avatar", fileName);
+                    using (var stream = new FileStream(path, FileMode.Create))
+                    {
+                        file.CopyTo(stream);
+                        model.Avatar = "/images/avatar/" + fileName; // Gán tên ảnh cho thuộc tính Avatar
+                    }
+                }
+                // Thêm peoples vào danh sách DataLocal
+                DataLocal._peoples.Add(model);
                 return RedirectToAction(nameof(Index));
             }
-            catch
+            catch (Exception ex)
             {
-                return View();
+                ViewBag.error = ex.Message;
+                return View(model);
             }
         }
-
         // GET: PeoplesController/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            var people = DataLocal.GetPeopleById(id);
+            return View(people);
         }
 
         // POST: PeoplesController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public ActionResult Edit(int id, People model)
         {
-            try
+            try 
             {
+                // Upload file vào thư mục wwwroot/images/avatar
+                var files = HttpContext.Request.Form.Files;
+                // using System.Linq
+                if (files.Count > 0 && files[0].Length > 0)
+                {
+                    var file = files[0];
+                    var fileName = file.FileName;
+                    // Nhớ tạo thư mục avatar trong thư mục wwwroot/images
+                    // using System.IO
+                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\images\\avatar", fileName);
+                    using (var stream = new FileStream(path, FileMode.Create))
+                    {
+                        file.CopyTo(stream);
+                        model.Avatar = "/images/avatar/" + fileName; // Set relative path to Avatar
+                    }
+                }
+                // Cập nhật model vào danh sách DataLocal
+                for (int i = 0; i < DataLocal._peoples.Count; i++)
+                {
+                    if (DataLocal._peoples[i].Id == id)
+                    {
+                        DataLocal._peoples[i] = model;
+                        break;
+                    }
+                }
                 return RedirectToAction(nameof(Index));
             }
             catch
             {
-                return View();
+                return View(model);
             }
         }
 
         // GET: PeoplesController/Delete/5
         public ActionResult Delete(int id)
         {
-            return View();
+            var peoples = DataLocal.GetPeopleById(id);
+            return View(peoples);
         }
 
         // POST: PeoplesController/Delete/5
@@ -80,6 +125,14 @@ namespace Lab04.Controllers
         {
             try
             {
+                for (int i = 0; i < DataLocal._peoples.Count; i++)
+                {
+                    if (DataLocal._peoples[i].Id == id)
+                    {
+                        DataLocal._peoples.RemoveAt(i);
+                        break;
+                    }
+                }
                 return RedirectToAction(nameof(Index));
             }
             catch

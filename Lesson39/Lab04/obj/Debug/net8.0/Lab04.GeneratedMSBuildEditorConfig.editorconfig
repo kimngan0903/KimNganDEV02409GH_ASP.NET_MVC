@@ -38,8 +38,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVvcGxlc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/DEV_02409GH_KN/KimNganDEV02409GH_ASP.NET_MVC/Lesson39/Lab04/Views/Peoples/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVvcGxlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/DEV_02409GH_KN/KimNganDEV02409GH_ASP.NET_MVC/Lesson39/Lab04/Views/Peoples/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVvcGxlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DEV_02409GH_KN/KimNganDEV02409GH_ASP.NET_MVC/Lesson39/Lab04/Views/Peoples/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVvcGxlc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/DEV_02409GH_KN/KimNganDEV02409GH_ASP.NET_MVC/Lesson39/Lab04/Views/Peoples/Index.cshtml]

@@ -37,6 +37,14 @@
       "PackagePath": "staticwebassets\\images\\avatar\\6.jpg"
     },
     {
+      "Id": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson39\\Lab04\\wwwroot\\images\\avatar\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\7.jpg"
+    },
+    {
+      "Id": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson39\\Lab04\\wwwroot\\images\\avatar\\Avatar",
+      "PackagePath": "staticwebassets\\images\\avatar"
+    },
+    {
       "Id": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson39\\Lab04\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

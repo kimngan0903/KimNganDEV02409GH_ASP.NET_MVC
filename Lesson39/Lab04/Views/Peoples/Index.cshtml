@@ -33,9 +33,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.Birthday)
             </th>
-            <th>
+            @*<th>
                 @Html.DisplayNameFor(model => model.Bio)
-            </th>
+            </th>*@
             <th>
                 @Html.DisplayNameFor(model => model.Gender)
             </th>
@@ -67,9 +67,9 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Birthday)
             </td>
-            <td>
+            @*<td>
                 @Html.DisplayFor(modelItem => item.Bio)
-            </td>
+            </td>*@
             <td>
                  @* @Html.DisplayFor(modelItem => item.Gender) *@
                     @if(item.Gender == 0)
