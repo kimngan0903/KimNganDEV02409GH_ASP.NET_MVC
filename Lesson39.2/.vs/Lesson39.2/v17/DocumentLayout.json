@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson39.2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E61FAE23-4C35-4AC9-96C4-45D22AEB9686}|Sesson06_TheoryCF8\\Sesson06_TheoryCF8.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson39.2\\sesson06_theorycf8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E61FAE23-4C35-4AC9-96C4-45D22AEB9686}|Sesson06_TheoryCF8\\Sesson06_TheoryCF8.csproj|solutionrelative:sesson06_theorycf8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E61FAE23-4C35-4AC9-96C4-45D22AEB9686}|Sesson06_TheoryCF8\\Sesson06_TheoryCF8.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson39.2\\sesson06_theorycf8\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E61FAE23-4C35-4AC9-96C4-45D22AEB9686}|Sesson06_TheoryCF8\\Sesson06_TheoryCF8.csproj|solutionrelative:sesson06_theorycf8\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E61FAE23-4C35-4AC9-96C4-45D22AEB9686}|Sesson06_TheoryCF8\\Sesson06_TheoryCF8.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson39.2\\sesson06_theorycf8\\models\\bookmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E61FAE23-4C35-4AC9-96C4-45D22AEB9686}|Sesson06_TheoryCF8\\Sesson06_TheoryCF8.csproj|solutionrelative:sesson06_theorycf8\\models\\bookmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9991109-4684-47E8-A21E-E4C6253FF6F6}|Sesson06\\Sesson06.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson39.2\\sesson06\\models\\bookstorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9991109-4684-47E8-A21E-E4C6253FF6F6}|Sesson06\\Sesson06.csproj|solutionrelative:sesson06\\models\\bookstorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E61FAE23-4C35-4AC9-96C4-45D22AEB9686}|Sesson06_TheoryCF8\\Sesson06_TheoryCF8.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson39.2\\sesson06_theorycf8\\models\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E61FAE23-4C35-4AC9-96C4-45D22AEB9686}|Sesson06_TheoryCF8\\Sesson06_TheoryCF8.csproj|solutionrelative:sesson06_theorycf8\\models\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E61FAE23-4C35-4AC9-96C4-45D22AEB9686}|Sesson06_TheoryCF8\\Sesson06_TheoryCF8.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson39.2\\sesson06_theorycf8\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E61FAE23-4C35-4AC9-96C4-45D22AEB9686}|Sesson06_TheoryCF8\\Sesson06_TheoryCF8.csproj|solutionrelative:sesson06_theorycf8\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E61FAE23-4C35-4AC9-96C4-45D22AEB9686}|Sesson06_TheoryCF8\\Sesson06_TheoryCF8.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson39.2\\sesson06_theorycf8\\migrations\\20241115031433_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E61FAE23-4C35-4AC9-96C4-45D22AEB9686}|Sesson06_TheoryCF8\\Sesson06_TheoryCF8.csproj|solutionrelative:sesson06_theorycf8\\migrations\\20241115031433_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20241115031433_v1.cs",
+              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson39.2\\Sesson06_TheoryCF8\\Migrations\\20241115031433_v1.cs",
+              "RelativeDocumentMoniker": "Sesson06_TheoryCF8\\Migrations\\20241115031433_v1.cs",
+              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson39.2\\Sesson06_TheoryCF8\\Migrations\\20241115031433_v1.cs",
+              "RelativeToolTip": "Sesson06_TheoryCF8\\Migrations\\20241115031433_v1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T03:14:33.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Publisher.cs",
+              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson39.2\\Sesson06_TheoryCF8\\Models\\Publisher.cs",
+              "RelativeDocumentMoniker": "Sesson06_TheoryCF8\\Models\\Publisher.cs",
+              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson39.2\\Sesson06_TheoryCF8\\Models\\Publisher.cs",
+              "RelativeToolTip": "Sesson06_TheoryCF8\\Models\\Publisher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T03:09:03.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson39.2\\Sesson06_TheoryCF8\\Program.cs",
+              "RelativeDocumentMoniker": "Sesson06_TheoryCF8\\Program.cs",
+              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson39.2\\Sesson06_TheoryCF8\\Program.cs",
+              "RelativeToolTip": "Sesson06_TheoryCF8\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T02:44:25.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson39.2\\Sesson06_TheoryCF8\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "Sesson06_TheoryCF8\\Models\\Book.cs",
+              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson39.2\\Sesson06_TheoryCF8\\Models\\Book.cs",
+              "RelativeToolTip": "Sesson06_TheoryCF8\\Models\\Book.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T03:08:37.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookManagementContext.cs",
+              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson39.2\\Sesson06_TheoryCF8\\Models\\BookManagementContext.cs",
+              "RelativeDocumentMoniker": "Sesson06_TheoryCF8\\Models\\BookManagementContext.cs",
+              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson39.2\\Sesson06_TheoryCF8\\Models\\BookManagementContext.cs",
+              "RelativeToolTip": "Sesson06_TheoryCF8\\Models\\BookManagementContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T03:08:07.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson39.2\\Sesson06_TheoryCF8\\appsettings.json",
+              "RelativeDocumentMoniker": "Sesson06_TheoryCF8\\appsettings.json",
+              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson39.2\\Sesson06_TheoryCF8\\appsettings.json",
+              "RelativeToolTip": "Sesson06_TheoryCF8\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-15T02:43:13.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookStoreContext.cs",
+              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson39.2\\Sesson06\\Models\\BookStoreContext.cs",
+              "RelativeDocumentMoniker": "Sesson06\\Models\\BookStoreContext.cs",
+              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson39.2\\Sesson06\\Models\\BookStoreContext.cs",
+              "RelativeToolTip": "Sesson06\\Models\\BookStoreContext.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA0wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T02:14:16.519Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
