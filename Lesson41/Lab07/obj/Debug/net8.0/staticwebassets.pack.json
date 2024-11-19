@@ -305,12 +305,20 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\wwwroot\\images\\categories\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\categories\\1.jpg"
+    },
+    {
       "Id": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\wwwroot\\images\\categories\\2.jpg",
       "PackagePath": "staticwebassets\\images\\categories\\2.jpg"
     },
     {
-      "Id": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\wwwroot\\images\\categories\\C-OiQ-UUIAIycqR-1542448231_680x0.jpg",
-      "PackagePath": "staticwebassets\\images\\categories\\C-OiQ-UUIAIycqR-1542448231_680x0.jpg"
+      "Id": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\wwwroot\\images\\categories\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\categories\\3.jpg"
+    },
+    {
+      "Id": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\wwwroot\\images\\categories\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\categories\\4.jpg"
     },
     {
       "Id": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\wwwroot\\images\\categories\\logo.jpg",

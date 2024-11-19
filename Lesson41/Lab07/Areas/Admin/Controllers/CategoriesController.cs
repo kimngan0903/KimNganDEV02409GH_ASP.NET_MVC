@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Lab07.Models;
+using X.PagedList;
 
 namespace Lab07.Areas.Admin.Controllers
 {
@@ -20,9 +21,20 @@ namespace Lab07.Areas.Admin.Controllers
         }
 
         // GET: Admin/Categories
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string name, int page = 1)
         {
-            return View(await _context.Categories.ToListAsync());
+            // Số ghi trên 1 trang
+            int limit = 3;
+
+            // var category = await _context.Categories.ToListAsync();
+            var category = await _context.Categories.OrderBy(c => c.CategoryId).ToPagedListAsync(page, limit);
+            // Nếu có tham số name trên url
+            if (!String.IsNullOrEmpty(name))
+            {
+                category = await _context.Categories.Where(c => c.CategoryName.Contains(name)).OrderBy(c => c.CategoryId).ToPagedListAsync(page, limit);    
+            }
+            ViewBag.keyword = name;
+            return View(category);
         }
 
         // GET: Admin/Categories/Details/5

@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson42\\lab09.1\\areas\\admin\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|solutionrelative:lab09.1\\areas\\admin\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson42\\lab09.1\\areas\\admin\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|solutionrelative:lab09.1\\areas\\admin\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson42\\lab09.1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|solutionrelative:lab09.1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson42\\lab09.1\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|solutionrelative:lab09.1\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson42\\lab09.1\\areas\\admin\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|solutionrelative:lab09.1\\areas\\admin\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson42\\lab09.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|solutionrelative:lab09.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_SideBar.cshtml",
+              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Areas\\Admin\\Views\\Shared\\_SideBar.cshtml",
+              "RelativeDocumentMoniker": "Lab09.1\\Areas\\Admin\\Views\\Shared\\_SideBar.cshtml",
+              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Areas\\Admin\\Views\\Shared\\_SideBar.cshtml",
+              "RelativeToolTip": "Lab09.1\\Areas\\Admin\\Views\\Shared\\_SideBar.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-19T04:21:20.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Lab09.1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Lab09.1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-19T04:20:46.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Areas\\Admin\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Lab09.1\\Areas\\Admin\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Areas\\Admin\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Lab09.1\\Areas\\Admin\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAcwCYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T04:08:00.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Lab09.1\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Lab09.1\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T04:07:31.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Areas\\Admin\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "Lab09.1\\Areas\\Admin\\Controllers\\BaseController.cs",
+              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Areas\\Admin\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "Lab09.1\\Areas\\Admin\\Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T04:06:00.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Program.cs",
+              "RelativeDocumentMoniker": "Lab09.1\\Program.cs",
+              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Program.cs",
+              "RelativeToolTip": "Lab09.1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T04:04:57.321Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

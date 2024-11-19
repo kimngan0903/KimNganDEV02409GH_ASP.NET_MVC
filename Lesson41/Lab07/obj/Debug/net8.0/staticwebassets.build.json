@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5xRnTdUPRY8ju3kv1Shgfdp28ieO6X352ecV6zNGxnE=",
+  "Hash": "tUAmzA66Joht8BzPN6r8LcvaAKhl1BUMk8PYFLjKLv8=",
   "Source": "Lab07",
   "BasePath": "_content/Lab07",
   "Mode": "Default",
@@ -1480,6 +1480,25 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\wwwroot\\images\\categories\\1.jpg",
+      "SourceId": "Lab07",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\wwwroot\\",
+      "BasePath": "_content/Lab07",
+      "RelativePath": "images/categories/1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\categories\\1.jpg"
+    },
+    {
       "Identity": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\wwwroot\\images\\categories\\2.jpg",
       "SourceId": "Lab07",
       "SourceType": "Discovered",
@@ -1499,12 +1518,12 @@
       "OriginalItemSpec": "wwwroot\\images\\categories\\2.jpg"
     },
     {
-      "Identity": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\wwwroot\\images\\categories\\C-OiQ-UUIAIycqR-1542448231_680x0.jpg",
+      "Identity": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\wwwroot\\images\\categories\\3.jpg",
       "SourceId": "Lab07",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\wwwroot\\",
       "BasePath": "_content/Lab07",
-      "RelativePath": "images/categories/C-OiQ-UUIAIycqR-1542448231_680x0.jpg",
+      "RelativePath": "images/categories/3.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1515,7 +1534,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\categories\\C-OiQ-UUIAIycqR-1542448231_680x0.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\categories\\3.jpg"
+    },
+    {
+      "Identity": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\wwwroot\\images\\categories\\4.jpg",
+      "SourceId": "Lab07",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\wwwroot\\",
+      "BasePath": "_content/Lab07",
+      "RelativePath": "images/categories/4.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\categories\\4.jpg"
     },
     {
       "Identity": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\wwwroot\\images\\categories\\logo.jpg",
