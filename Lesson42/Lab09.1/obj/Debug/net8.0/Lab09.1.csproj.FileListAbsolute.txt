@@ -258,3 +258,4 @@ D:\DEV_02409GH_KN\KimNganDEV02409GH_ASP.NET_MVC\Lesson42\Lab09.1\bin\Debug\net8.
 D:\DEV_02409GH_KN\KimNganDEV02409GH_ASP.NET_MVC\Lesson42\Lab09.1\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 D:\DEV_02409GH_KN\KimNganDEV02409GH_ASP.NET_MVC\Lesson42\Lab09.1\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 D:\DEV_02409GH_KN\KimNganDEV02409GH_ASP.NET_MVC\Lesson42\Lab09.1\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+D:\DEV_02409GH_KN\KimNganDEV02409GH_ASP.NET_MVC\Lesson42\Lab09.1\bin\Debug\net8.0\Lab09.1.dll.config

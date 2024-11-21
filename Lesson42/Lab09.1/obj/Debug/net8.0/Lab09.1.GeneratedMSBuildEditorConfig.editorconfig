@@ -62,12 +62,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/DEV_02409GH_KN/KimNganDEV02409GH_ASP.NET_MVC/Lesson42/Lab09.1/Views/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/DEV_02409GH_KN/KimNganDEV02409GH_ASP.NET_MVC/Lesson42/Lab09.1/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/DEV_02409GH_KN/KimNganDEV02409GH_ASP.NET_MVC/Lesson42/Lab09.1/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DEV_02409GH_KN/KimNganDEV02409GH_ASP.NET_MVC/Lesson42/Lab09.1/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/DEV_02409GH_KN/KimNganDEV02409GH_ASP.NET_MVC/Lesson42/Lab09.1/Views/Shared/Error.cshtml]
