@@ -17,7 +17,6 @@ namespace Lab09._1.Controllers
         {
             return View();
         }
-
         public IActionResult Privacy()
         {
             return View();

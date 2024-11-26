@@ -46,6 +46,10 @@ public partial class DevXuongMocContext : DbContext
     public virtual DbSet<ProductMaterial> ProductMaterials { get; set; }
 
     public virtual DbSet<Slide> Slides { get; set; }
+    public DbSet<Customer> Customers { get; set; }
+    public DbSet<Order> Orders { get; set; }
+    public DbSet<OrderDetail> OrderDetails { get; set; }
+    public DbSet<PaymentMethod> PaymentMethods { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
@@ -53,6 +57,15 @@ public partial class DevXuongMocContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<Order>()
+           .HasOne(o => o.Customer)
+           .WithMany(c => c.Orders)
+           .HasForeignKey(o => o.CustomerId);
+
+        modelBuilder.Entity<OrderDetail>()
+            .HasOne(od => od.Order)
+            .WithMany(o => o.OrderDetails)
+            .HasForeignKey(od => od.OrderId);
         modelBuilder.Entity<AdminLog>(entity =>
         {
             entity.HasKey(e => e.LogId).HasName("PK__ADMIN_LO__4364C8821C166F89");

@@ -13,7 +13,6 @@ namespace Lab07
             // Add services to the container.
             builder.Services.AddControllersWithViews();
             builder.Services.AddHttpContextAccessor();
-            builder.Services.AddHttpContextAccessor();
             builder.Services.AddDbContext<ProductManagementContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("ProductManagementConnection")));
             // C?u hình s? d?ng session
             builder.Services.AddSession(options =>

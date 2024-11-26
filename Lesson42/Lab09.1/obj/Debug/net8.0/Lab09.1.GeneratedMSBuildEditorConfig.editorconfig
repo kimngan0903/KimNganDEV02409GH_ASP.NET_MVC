@@ -34,6 +34,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/DEV_02409GH_KN/KimNganDEV02409GH_ASP.NET_MVC/Lesson42/Lab09.1/Areas/Admin/Views/Orders/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DEV_02409GH_KN/KimNganDEV02409GH_ASP.NET_MVC/Lesson42/Lab09.1/Areas/Admin/Views/Orders/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DEV_02409GH_KN/KimNganDEV02409GH_ASP.NET_MVC/Lesson42/Lab09.1/Areas/Admin/Views/Orders/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DEV_02409GH_KN/KimNganDEV02409GH_ASP.NET_MVC/Lesson42/Lab09.1/Areas/Admin/Views/Orders/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DEV_02409GH_KN/KimNganDEV02409GH_ASP.NET_MVC/Lesson42/Lab09.1/Areas/Admin/Views/Orders/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/DEV_02409GH_KN/KimNganDEV02409GH_ASP.NET_MVC/Lesson42/Lab09.1/Areas/Admin/Views/Shared/Admin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEFkbWluLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -64,6 +84,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/DEV_02409GH_KN/KimNganDEV02409GH_ASP.NET_MVC/Lesson42/Lab09.1/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DEV_02409GH_KN/KimNganDEV02409GH_ASP.NET_MVC/Lesson42/Lab09.1/Views/CustomerMember/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJNZW1iZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DEV_02409GH_KN/KimNganDEV02409GH_ASP.NET_MVC/Lesson42/Lab09.1/Views/CustomerMember/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJNZW1iZXJcUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/DEV_02409GH_KN/KimNganDEV02409GH_ASP.NET_MVC/Lesson42/Lab09.1/Views/Home/Index.cshtml]
