@@ -1,16 +1,21 @@
-﻿namespace Lab09._1.Models
+﻿using System;
+using System.Collections.Generic;
+
+namespace Lab09._1.Models;
+
+public partial class Orderdetail
 {
-    public class OrderDetail
-    {
-        public long ID { get; set; }
-        public long OrderId { get; set; }
-        public long ProductId { get; set; }
-        public int Quantity { get; set; }
-        public decimal Total { get; set; }
-        public int ReturnQuantity { get; set; }
+    public long Id { get; set; }
 
-        // Navigation property
-        public Order Order { get; set; }
-    }
+    public long? Idord { get; set; }
 
+    public long? Idproduct { get; set; }
+
+    public decimal? Price { get; set; }
+
+    public int? Qty { get; set; }
+
+    public decimal? Total { get; set; }
+
+    public int? ReturnQty { get; set; }
 }

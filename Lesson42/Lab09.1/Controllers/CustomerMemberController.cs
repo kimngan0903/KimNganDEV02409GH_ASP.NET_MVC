@@ -36,7 +36,7 @@ namespace Lab09._1.Controllers
                 model.Password = pass;
                 model.CreatedDate = DateTime.Now;
                 model.UpdatedDate = DateTime.Now;
-                model.IsActive = 1;
+                model.Isactive = 1;
                 _context.Add(model);
                 _context.SaveChanges();
                 return View();
@@ -48,10 +48,10 @@ namespace Lab09._1.Controllers
             }
         }
 
-        public IActionResult Login( LoginUser model, string urlAction)
+        public IActionResult Login(LoginUser model, string urlAction)
         {
             var pass = model.Password;
-            var data = _context.Customers.Where(x => x.IsActive == 1).Where(x => x.Username.Equals(model.UserOrEmail) || x.Email.Equals(model.UserOrEmail)).FirstOrDefault(x => x.Password.Equals(pass));
+            var data = _context.Customers.Where(x => x.Isactive == 1).Where(x => x.Username.Equals(model.UserOrEmail) || x.Email.Equals(model.UserOrEmail)).FirstOrDefault(x => x.Password.Equals(pass));
             var dataLogin = data.ToJson();
             if (data != null)
             {

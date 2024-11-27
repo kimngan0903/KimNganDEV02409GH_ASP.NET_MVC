@@ -3,84 +3,20 @@
   "WorkspaceRootPath": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson42\\lab09.1\\views\\cart\\orderpay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|solutionrelative:lab09.1\\views\\cart\\orderpay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson42\\lab09.1\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|solutionrelative:lab09.1\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson42\\lab09.1\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|solutionrelative:lab09.1\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson42\\lab09.1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|solutionrelative:lab09.1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson42\\lab09.1\\views\\customermember\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|solutionrelative:lab09.1\\views\\customermember\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson42\\lab09.1\\models\\loginuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|solutionrelative:lab09.1\\models\\loginuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson42\\lab09.1\\controllers\\customermembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|solutionrelative:lab09.1\\controllers\\customermembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson42\\lab09.1\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|solutionrelative:lab09.1\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson42\\lab09.1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|solutionrelative:lab09.1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson42\\lab09.1\\views\\customermember\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|solutionrelative:lab09.1\\views\\customermember\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson42\\lab09.1\\areas\\admin\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|solutionrelative:lab09.1\\areas\\admin\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson42\\lab09.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|solutionrelative:lab09.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson42\\lab09.1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|solutionrelative:lab09.1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson42\\lab09.1\\models\\devxuongmoccontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|solutionrelative:lab09.1\\models\\devxuongmoccontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson42\\lab09.1\\models\\paymentmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|solutionrelative:lab09.1\\models\\paymentmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson42\\lab09.1\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|solutionrelative:lab09.1\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson42\\lab09.1\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|solutionrelative:lab09.1\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson42\\lab09.1\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|solutionrelative:lab09.1\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson42\\lab09.1\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|solutionrelative:lab09.1\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson42\\lab09.1\\areas\\admin\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|solutionrelative:lab09.1\\areas\\admin\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson42\\lab09.1\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|solutionrelative:lab09.1\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson42\\lab09.1\\views\\cart\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18215C0E-FF49-469D-B43A-F50B1ADF4717}|Lab09.1\\Lab09.1.csproj|solutionrelative:lab09.1\\views\\cart\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,264 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "site.css",
-              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "Lab09.1\\wwwroot\\css\\site.css",
-              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "Lab09.1\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAM8AAAAAAAAAAAAswO4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-25T03:57:58.921Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Views\\CustomerMember\\Index.cshtml",
-              "RelativeDocumentMoniker": "Lab09.1\\Views\\CustomerMember\\Index.cshtml",
-              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Views\\CustomerMember\\Index.cshtml",
-              "RelativeToolTip": "Lab09.1\\Views\\CustomerMember\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-25T03:28:12.541Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CustomerMemberController.cs",
-              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Controllers\\CustomerMemberController.cs",
-              "RelativeDocumentMoniker": "Lab09.1\\Controllers\\CustomerMemberController.cs",
-              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Controllers\\CustomerMemberController.cs",
-              "RelativeToolTip": "Lab09.1\\Controllers\\CustomerMemberController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAQwDUAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T02:54:40.308Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Lab09.1\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Lab09.1\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-25T02:07:57.509Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginUser.cs",
-              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Models\\LoginUser.cs",
-              "RelativeDocumentMoniker": "Lab09.1\\Models\\LoginUser.cs",
-              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Models\\LoginUser.cs",
-              "RelativeToolTip": "Lab09.1\\Models\\LoginUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T03:25:50.69Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "Lab09.1\\Models\\Customer.cs",
-              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Models\\Customer.cs",
-              "RelativeToolTip": "Lab09.1\\Models\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T01:54:50.627Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Views\\Cart\\Index.cshtml",
-              "RelativeDocumentMoniker": "Lab09.1\\Views\\Cart\\Index.cshtml",
-              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Views\\Cart\\Index.cshtml",
-              "RelativeToolTip": "Lab09.1\\Views\\Cart\\Index.cshtml",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAAwIIAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T04:20:31.449Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "Lab09.1\\Controllers\\CartController.cs",
-              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Controllers\\CartController.cs",
-              "RelativeToolTip": "Lab09.1\\Controllers\\CartController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T04:14:12.869Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Views\\CustomerMember\\Register.cshtml",
-              "RelativeDocumentMoniker": "Lab09.1\\Views\\CustomerMember\\Register.cshtml",
-              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Views\\CustomerMember\\Register.cshtml",
-              "RelativeToolTip": "Lab09.1\\Views\\CustomerMember\\Register.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "OrderPay.cshtml",
+              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Views\\Cart\\OrderPay.cshtml",
+              "RelativeDocumentMoniker": "Lab09.1\\Views\\Cart\\OrderPay.cshtml",
+              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Views\\Cart\\OrderPay.cshtml",
+              "RelativeToolTip": "Lab09.1\\Views\\Cart\\OrderPay.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-25T03:11:59.284Z",
+              "WhenOpened": "2024-11-27T13:15:52.441Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Areas\\Admin\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "Lab09.1\\Areas\\Admin\\Controllers\\OrdersController.cs",
-              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Areas\\Admin\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "Lab09.1\\Areas\\Admin\\Controllers\\OrdersController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T02:05:43.139Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\appsettings.json",
-              "RelativeDocumentMoniker": "Lab09.1\\appsettings.json",
-              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\appsettings.json",
-              "RelativeToolTip": "Lab09.1\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-25T01:59:36.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 2,
               "Title": "DevXuongMocContext.cs",
               "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Models\\DevXuongMocContext.cs",
               "RelativeDocumentMoniker": "Lab09.1\\Models\\DevXuongMocContext.cs",
               "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Models\\DevXuongMocContext.cs",
               "RelativeToolTip": "Lab09.1\\Models\\DevXuongMocContext.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAywD0AAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAuwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T01:56:25.877Z",
+              "WhenOpened": "2024-11-27T13:00:32.318Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "PaymentMethod.cs",
-              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Models\\PaymentMethod.cs",
-              "RelativeDocumentMoniker": "Lab09.1\\Models\\PaymentMethod.cs",
-              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Models\\PaymentMethod.cs",
-              "RelativeToolTip": "Lab09.1\\Models\\PaymentMethod.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Lab09.1\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Lab09.1\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAmwKAAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T01:56:03.76Z",
+              "WhenOpened": "2024-11-27T12:00:43.266Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "OrderDetail.cs",
-              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Models\\OrderDetail.cs",
-              "RelativeDocumentMoniker": "Lab09.1\\Models\\OrderDetail.cs",
-              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Models\\OrderDetail.cs",
-              "RelativeToolTip": "Lab09.1\\Models\\OrderDetail.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T01:55:48.517Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Order.cs",
-              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "Lab09.1\\Models\\Order.cs",
-              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Models\\Order.cs",
-              "RelativeToolTip": "Lab09.1\\Models\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T01:55:25.329Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Program.cs",
-              "RelativeDocumentMoniker": "Lab09.1\\Program.cs",
-              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Program.cs",
-              "RelativeToolTip": "Lab09.1\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAA1wCEAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T02:08:36.133Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Cart.cs",
-              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Models\\Cart.cs",
-              "RelativeDocumentMoniker": "Lab09.1\\Models\\Cart.cs",
-              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Models\\Cart.cs",
-              "RelativeToolTip": "Lab09.1\\Models\\Cart.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T02:56:55.084Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Lab09.1\\Controllers\\ProductController.cs",
-              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Lab09.1\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T01:43:10.253Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Views\\Product\\Index.cshtml",
-              "RelativeDocumentMoniker": "Lab09.1\\Views\\Product\\Index.cshtml",
-              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Views\\Product\\Index.cshtml",
-              "RelativeToolTip": "Lab09.1\\Views\\Product\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA5AAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Orders.cshtml",
+              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Views\\Cart\\Orders.cshtml",
+              "RelativeDocumentMoniker": "Lab09.1\\Views\\Cart\\Orders.cshtml",
+              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Views\\Cart\\Orders.cshtml",
+              "RelativeToolTip": "Lab09.1\\Views\\Cart\\Orders.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEAAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T01:42:47.663Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Areas\\Admin\\Views\\Login\\Index.cshtml",
-              "RelativeDocumentMoniker": "Lab09.1\\Areas\\Admin\\Views\\Login\\Index.cshtml",
-              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson42\\Lab09.1\\Areas\\Admin\\Views\\Login\\Index.cshtml",
-              "RelativeToolTip": "Lab09.1\\Areas\\Admin\\Views\\Login\\Index.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T04:22:32.845Z"
+              "WhenOpened": "2024-11-27T12:00:15.076Z",
+              "EditorCaption": ""
             }
           ]
         }

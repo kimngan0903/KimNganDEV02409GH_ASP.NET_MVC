@@ -22,8 +22,7 @@ namespace Lab09._1.Areas.Admin.Controllers
         // GET: Admin/Orders
         public async Task<IActionResult> Index()
         {
-            var devXuongMocContext = _context.Orders.Include(o => o.Customer);
-            return View(await devXuongMocContext.ToListAsync());
+            return View(await _context.Orders.ToListAsync());
         }
 
         // GET: Admin/Orders/Details/5
@@ -35,8 +34,7 @@ namespace Lab09._1.Areas.Admin.Controllers
             }
 
             var order = await _context.Orders
-                .Include(o => o.Customer)
-                .FirstOrDefaultAsync(m => m.ID == id);
+                .FirstOrDefaultAsync(m => m.Id == id);
             if (order == null)
             {
                 return NotFound();
@@ -48,7 +46,6 @@ namespace Lab09._1.Areas.Admin.Controllers
         // GET: Admin/Orders/Create
         public IActionResult Create()
         {
-            ViewData["CustomerId"] = new SelectList(_context.Customers, "ID", "ID");
             return View();
         }
 
@@ -57,7 +54,7 @@ namespace Lab09._1.Areas.Admin.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,OrderDate,CustomerId,TotalMoney,Notes,NameReceiver,Address,Phone,IsDelete,IsActive")] Order order)
+        public async Task<IActionResult> Create([Bind("Id,Idorders,OrdersDate,Idcustomer,Idpayment,TotalMoney,Notes,NameReciver,Address,Email,Phone,Isdelete,Isactive")] Order order)
         {
             if (ModelState.IsValid)
             {
@@ -65,7 +62,6 @@ namespace Lab09._1.Areas.Admin.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CustomerId"] = new SelectList(_context.Customers, "ID", "ID", order.CustomerId);
             return View(order);
         }
 
@@ -82,7 +78,6 @@ namespace Lab09._1.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-            ViewData["CustomerId"] = new SelectList(_context.Customers, "ID", "ID", order.CustomerId);
             return View(order);
         }
 
@@ -91,9 +86,9 @@ namespace Lab09._1.Areas.Admin.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(long id, [Bind("ID,OrderDate,CustomerId,TotalMoney,Notes,NameReceiver,Address,Phone,IsDelete,IsActive")] Order order)
+        public async Task<IActionResult> Edit(long id, [Bind("Id,Idorders,OrdersDate,Idcustomer,Idpayment,TotalMoney,Notes,NameReciver,Address,Email,Phone,Isdelete,Isactive")] Order order)
         {
-            if (id != order.ID)
+            if (id != order.Id)
             {
                 return NotFound();
             }
@@ -107,7 +102,7 @@ namespace Lab09._1.Areas.Admin.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!OrderExists(order.ID))
+                    if (!OrderExists(order.Id))
                     {
                         return NotFound();
                     }
@@ -118,7 +113,6 @@ namespace Lab09._1.Areas.Admin.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CustomerId"] = new SelectList(_context.Customers, "ID", "ID", order.CustomerId);
             return View(order);
         }
 
@@ -131,8 +125,7 @@ namespace Lab09._1.Areas.Admin.Controllers
             }
 
             var order = await _context.Orders
-                .Include(o => o.Customer)
-                .FirstOrDefaultAsync(m => m.ID == id);
+                .FirstOrDefaultAsync(m => m.Id == id);
             if (order == null)
             {
                 return NotFound();
@@ -158,7 +151,7 @@ namespace Lab09._1.Areas.Admin.Controllers
 
         private bool OrderExists(long id)
         {
-            return _context.Orders.Any(e => e.ID == id);
+            return _context.Orders.Any(e => e.Id == id);
         }
     }
 }

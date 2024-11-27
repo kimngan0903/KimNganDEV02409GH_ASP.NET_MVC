@@ -23,29 +23,29 @@
                                     <div class="box-cart-item-btn">
 
                                         <button class="btn qty_btn">
-                                            <i class="fa fa-minus"></i>
+                                            <i class="fa fa-minus">-</i>
                                         </button>
                                         <input type="number" class="qty_input" value="@item.Quantity" />
 
                                         <button class="btn qty_btn">
-                                            <i class="fa fa-plus"></i>
+                                            <i class="fa fa-plus">+</i>
                                         </button>
 
                                     </div>
                                     <p>
                                         Giá:
 
-                                        <span>@string.Format("{0:#,##0}", @item.Price)VND</span>
+                                        <span>@string.Format("{0:#,##0}", @item.Price)VNĐ</span>
                                     </p>
                                 </div>
                             </div>
 
                             <div class="btn-action">
-                                <a href="/carts/remove/?id=@item.Id" class="btn remove">
-                                    <i class="fa-solid fa-xmark"></i>
+                                <a href="/cart/remove/?id=@item.Id" class="btn remove">
+                                    <i class="fa-solid fa-xmark">x</i>
                                 </a>
 
-                                <a href="/carts/?id=@item.Id" data-id="@item.Id" data- qty="@item.Quantity"
+                                <a href="/cart/?id=@item.Id" data-id="@item.Id" data- qty="@item.Quantity"
                                    class="btn update">Cập nhật</a>
 
                             </div>
@@ -54,7 +54,7 @@
                 </div>
                 <div class="box-cart-bill">
                     <h3> Tóm tắt đơn hàng </h3>
-                    <p>Tổng thành tiền:</p>
+                    <p>Tổng thành tiền: @string.Format("{0:#,##0}", ViewBag.total) VNĐ</p>
                     <p>
                         Phí vận chuyển: <span class="ship-money">Free Ship</span><br>
                         <small>( Miễn phí vận chuyển với đơn hàng trên 10 triệu )</small>
@@ -69,12 +69,14 @@
                     </p>
                     <div class="cart-box cart-layout">
                         <div class="total-price">
-                            Tổng tiền :<span> 24.000.000&nbsp;VND</span>
+                            Tổng tiền :<span>
+                                @string.Format("{0:#,##0}", ViewBag.total)
+                            </span> VNĐ
                         </div>
 
                         <div class="group-btn">
 
-                            <a href="/carts/orders" class="btn">Đặt hàng ngay</a>
+                            <a href="/cart/orders" class="btn">Đặt hàng ngay</a>
                             <a href="/product" class="btn">Tiếp tục mua hàng</a>
                         </div>
                     </div>
@@ -94,7 +96,7 @@
 
 
 
-                            let href = "/carts/Update/?id=" + id + "&quantity=" + qty;
+                            let href = "/cart/Update/?id=" + id + "&quantity=" + qty;
 
                 $(this).parent().parent().parent().parent().siblings('.btn-action').children('.update').attr("href", href);
 
@@ -107,7 +109,7 @@
                 let id = $(this).parent().parent().parent().parent().siblings('.btn-action').children('.update').attr("data-id");
 
 
-                            let href = "/carts/Update/?id=" + id + "&quantity=" + qty;
+                            let href = "/cart/Update/?id=" + id + "&quantity=" + qty;
 
                 $(this).parent().parent().parent().parent().siblings('.btn-action').children('.update').attr("href", href);
 
@@ -121,7 +123,7 @@
 
                 console.log($(this).parent().parent().parent().siblings('.btn-action').children('.update'));
 
-                            let href = "/carts/Update/?id=" + id + "&quantity=" + qty;
+                            let href = "/cart/Update/?id=" + id + "&quantity=" + qty;
 
                 $(this).parent().parent().parent().siblings('.btn-action').children('.update').attr("href", href);
 
