@@ -125,7 +125,7 @@ namespace Lab09._1.Controllers
         /// </summary>
         /// <returns></returns>
         public IActionResult Orders()
-            {
+        {
             if (HttpContext.Session.GetString("Member") == null)
             {
                 // return RedirectToAction("Index", "CustomerMember");
@@ -166,25 +166,25 @@ namespace Lab09._1.Controllers
                 var order = new Lab09._1.Models.Order();
                 //order.Idorders = "ID"+ String.Format("{0:yymmddss}", DateTime.Now);
                 order.Email = form["Email"];
-                order.NameReciver = form["NameReciver"]; 
+                order.NameReciver = form["NameReciver"];
                 order.Email = form["Email"];
                 order.Phone = form["Phone"];
                 order.Address = form["Address"];
                 order.Notes = form["Notes"];
                 order.Idpayment = long.Parse(form["IdPayment"]);
                 order.OrdersDate = DateTime.Now;
-                var dataMember =
-               JsonConvert.DeserializeObject<Customer>(HttpContext.Session.GetString("Member")); order.Idcustomer = dataMember.Id;
+                var dataMember = JsonConvert.DeserializeObject<Customer>(HttpContext.Session.GetString("Member"));
+                order.Idcustomer = dataMember.Id;
                 decimal total = 0;
                 foreach (var item in carts)
                 {
                     total += item.Quantity * (decimal)item.Price;
                 }
                 order.TotalMoney = total;
-                // tạo orderId 
+                //// tạo orderId 
                 var strOrderId = "DH";
 
-                string timestamp = DateTime.Now.ToString("yyyy-MM-dd.HH-mm-ss.fff"); 
+                string timestamp = DateTime.Now.ToString("yyyy-MM-dd.HH-mm-ss.fff");
                 strOrderId += "." + timestamp;
                 order.Idorders = strOrderId;
                 _context.Add(order);

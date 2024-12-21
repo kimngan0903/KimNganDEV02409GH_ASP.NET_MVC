@@ -1,0 +1,112 @@
+﻿@model DevXuongMoc.Models.News
+
+@{
+    ViewData["Title"] = "Chỉnh sửa News";
+}
+
+<div class="container mt-5">
+    <div class="text-center mb-5">
+        <h2 class="display-8 text-info">CHỈNH SỬA TIN TỨC</h2>
+        <p class="lead text-secondary" style="font-size: 15px">Vui lòng cập nhật thông tin bên dưới.</p>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-lg-12 col-md-10">
+            <div class="card shadow-sm border-0">
+                <div class="card-body">
+                    <form asp-action="Edit" enctype="multipart/form-data">
+                        <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+                        <input type="hidden" asp-for="Id" />
+
+                        <!-- Tiêu đề và Slug -->
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Title" class="form-label fw-bold">Tiêu đề</label>
+                                <input asp-for="Title" class="form-control" placeholder="Nhập tiêu đề bài viết" />
+                                <span asp-validation-for="Title" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Slug" class="form-label fw-bold">Slug</label>
+                                <input asp-for="Slug" class="form-control" placeholder="Nhập Slug" />
+                                <span asp-validation-for="Slug" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <!-- Mô tả và Nội dung -->
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label fw-bold">Mô tả</label>
+                                <textarea class="form-control" rows="3" placeholder="Nhập mô tả">@Html.Raw(Model.Description)</textarea>
+                                <span asp-validation-for="Description" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label fw-bold">Nội dung</label>
+                                <textarea class="form-control" rows="5" placeholder="Nhập nội dung bài viết">@Html.Raw(Model.Content)</textarea>
+                                <span asp-validation-for="Content" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <!-- Hình ảnh và Meta Title -->
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Image" class="form-label fw-bold">Hình ảnh</label>
+                                <input asp-for="Image" type="file" class="form-control" />
+                                <span asp-validation-for="Image" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="MetaTitle" class="form-label fw-bold">Meta Title</label>
+                                <input asp-for="MetaTitle" class="form-control" placeholder="Nhập Meta Title" />
+                                <span asp-validation-for="MetaTitle" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <!-- Hiển thị hình ảnh hiện tại -->
+                        @if (!string.IsNullOrEmpty(Model.Image))
+                        {
+                            <div class="mb-3 text-center">
+                                <label class="form-label fw-bold">Hình ảnh hiện tại</label>
+                                <img src="@Model.Image" alt="@Model.Title" class="img-thumbnail" style="max-width: 150px;" />
+                            </div>
+                        }
+
+                        <!-- Meta Keyword và Meta Description -->
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="MetaKeyword" class="form-label fw-bold">Meta Keyword</label>
+                                <input asp-for="MetaKeyword" class="form-control" placeholder="Nhập Meta Keyword" />
+                                <span asp-validation-for="MetaKeyword" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="MetaDescription" class="form-label fw-bold">Meta Description</label>
+                                <textarea asp-for="MetaDescription" class="form-control" rows="3" placeholder="Nhập Meta Description"></textarea>
+                                <span asp-validation-for="MetaDescription" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <!-- Trạng thái -->
+                        <div class="mb-3">
+                            <label asp-for="Status" class="form-label fw-bold">Trạng thái</label>
+                            <select asp-for="Status" class="form-select">
+                                <option value="0">Hoạt động</option>
+                                <option value="1">Không hoạt động</option>
+                            </select>
+                            <span asp-validation-for="Status" class="text-danger"></span>
+                        </div>
+
+                        <!-- Nút thao tác -->
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-info btn-lg px-4 mt-3">Lưu thay đổi</button>
+                            <a asp-action="Index" class="btn btn-secondary btn-lg px-4 mt-3">Quay lại</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

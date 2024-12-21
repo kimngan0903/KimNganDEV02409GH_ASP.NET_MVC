@@ -1,0 +1,118 @@
+﻿@model DevXuongMoc.Models.Banner
+
+@{
+    ViewData["Title"] = "Chỉnh sửa Banner";
+    Layout = "~/Areas/AdminQL/Views/Shared/Admin.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="text-center mb-4">
+        <h1 class="display-4 text-info">CHỈNH SỬA BANNER</h1>
+        <p class="lead text-secondary">Vui lòng cập nhật thông tin banner bên dưới.</p>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-10">
+            <div class="card shadow-sm border-0">
+                <div class="card-body">
+                    <form asp-action="Edit" enctype="multipart/form-data">
+                        <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Image" class="form-label fw-bold">Hình ảnh</label>
+                                <input asp-for="Image" class="form-control" placeholder="Nhập URL hình ảnh" />
+                                <span asp-validation-for="Image" class="text-danger"></span>
+                            </div>
+                            <!-- Hiển thị ảnh hiện tại nếu có -->
+                            @if (!string.IsNullOrEmpty(Model.Image))
+                            {
+                                <div class="mb-3">
+                                    <label class="form-label fw-bold">Ảnh đại diện hiện tại</label>
+                                    <div class="text-center">
+                                        <img src="@Model.Image" alt="Avatar hiện tại" class="img-thumbnail" style="max-width: 150px;" />
+                                    </div>
+                                </div>
+                            }
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Title" class="form-label fw-bold">Tiêu đề</label>
+                                <input asp-for="Title" class="form-control" placeholder="Nhập tiêu đề" />
+                                <span asp-validation-for="Title" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="SubTitle" class="form-label fw-bold">Phụ đề</label>
+                                <input asp-for="SubTitle" class="form-control" placeholder="Nhập phụ đề" />
+                                <span asp-validation-for="SubTitle" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Urls" class="form-label fw-bold">Liên kết</label>
+                                <input asp-for="Urls" class="form-control" placeholder="Nhập liên kết URL" />
+                                <span asp-validation-for="Urls" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Orders" class="form-label fw-bold">Thứ tự</label>
+                                <input asp-for="Orders" class="form-control" placeholder="Nhập thứ tự hiển thị" />
+                                <span asp-validation-for="Orders" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Type" class="form-label fw-bold">Loại banner</label>
+                                <input asp-for="Type" class="form-control" placeholder="Nhập loại banner" />
+                                <span asp-validation-for="Type" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="CreatedDate" class="form-label fw-bold">Ngày tạo</label>
+                                <input asp-for="CreatedDate" type="date" class="form-control" />
+                                <span asp-validation-for="CreatedDate" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="UpdatedDate" class="form-label fw-bold">Ngày cập nhật</label>
+                                <input asp-for="UpdatedDate" type="date" class="form-control" />
+                                <span asp-validation-for="UpdatedDate" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Status" class="form-label fw-bold">Trạng thái</label>
+                                <select asp-for="Status" class="form-select">
+                                    <option value="Active">Hoạt động</option>
+                                    <option value="Inactive">Không hoạt động</option>
+                                </select>
+                                <span asp-validation-for="Status" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Notes" class="form-label fw-bold">Ghi chú</label>
+                                <input asp-for="Notes" class="form-control" placeholder="Nhập ghi chú" />
+                                <span asp-validation-for="Notes" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-info btn-lg px-4 mt-3">Lưu thay đổi</button>
+                            <a asp-action="Index" class="btn btn-secondary btn-lg px-4 mt-3">Quay lại danh sách</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

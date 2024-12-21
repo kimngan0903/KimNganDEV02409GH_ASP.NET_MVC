@@ -1,0 +1,63 @@
+﻿@model DevXuongMoc.Models.Customer
+
+@{
+    ViewData["Title"] = "Chỉnh sửa khách hàng";
+    Layout = "~/Areas/CustomerUser/Views/Shared/_Customer.cshtml";
+}
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100vh; margin-top: 10rem; margin-bottom: 4rem">
+    <div class="card shadow-sm" style="max-width: 600px; width: 100%;">
+        <div class="card-header bg-info text-white text-center">
+            <h4 class="mb-0">Cập nhật thông tin khách hàng</h4>
+        </div>
+        <div class="card-body">
+            <form asp-action="Edit" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger" role="alert"></div>
+                <input type="hidden" asp-for="CustomerId" />
+
+                <div class="form-group">
+                    <label asp-for="Name" class="control-label">Họ và tên</label>
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Username" class="control-label">Tên đăng nhập</label>
+                    <input asp-for="Username" class="form-control" />
+                    <span asp-validation-for="Username" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Password" class="control-label">Mật khẩu</label>
+                    <input asp-for="Password" class="form-control" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Email" class="control-label">Email</label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Phone" class="control-label">Số điện thoại</label>
+                    <input asp-for="Phone" class="form-control" />
+                    <span asp-validation-for="Phone" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Avatar" class="control-label">Ảnh đại diện</label>
+                    <input asp-for="Avatar" type="file" class="form-control" />
+                    <span asp-validation-for="Avatar" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Address" class="control-label">Địa chỉ</label>
+                    <input asp-for="Address" class="form-control" />
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+
+                <div class="form-group text-center mt-4">
+                    <input type="submit" value="Lưu thay đổi" class="btn btn-info mx-2" />
+                    <a class="btn btn-secondary mx-2" onclick="window.history.back();">Quay lại danh sách</a>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+

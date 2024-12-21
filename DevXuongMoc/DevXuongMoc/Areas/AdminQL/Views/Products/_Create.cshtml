@@ -1,0 +1,168 @@
+﻿@model DevXuongMoc.Models.Product
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="container mt-5">
+    <div class="text-center mb-5">
+        <h2 class="display-8 text-info">TẠO SẢN PHẨM MỚI</h2>
+        <p class="lead text-secondary" style="font-size: 13px">Vui lòng điền đầy đủ thông tin sản phẩm bên dưới.</p>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-lg-12 col-md-10">
+            <div class="card shadow-sm border-0">
+                <div class="card-body">
+                    <form asp-action="Create" enctype="multipart/form-data">
+                        <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Cid" class="form-label fw-bold">Danh mục sản phẩm</label>
+                                <input asp-for="Cid" class="form-control" placeholder="Chọn danh mục sản phẩm" />
+                                <span asp-validation-for="Cid" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Code" class="form-label fw-bold">Mã sản phẩm</label>
+                                <input asp-for="Code" class="form-control" placeholder="Nhập mã sản phẩm" />
+                                <span asp-validation-for="Code" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Title" class="form-label fw-bold">Tên sản phẩm</label>
+                                <input asp-for="Title" class="form-control" placeholder="Nhập tên sản phẩm" />
+                                <span asp-validation-for="Title" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Description" class="form-label fw-bold">Mô tả sản phẩm</label>
+                                <input asp-for="Description" class="form-control" placeholder="Nhập mô tả sản phẩm" />
+                                <span asp-validation-for="Description" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Content" class="form-label fw-bold">Nội dung sản phẩm</label>
+                                <input asp-for="Content" class="form-control" placeholder="Nhập nội dung sản phẩm" />
+                                <span asp-validation-for="Content" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Image" class="form-label fw-bold">Hình ảnh sản phẩm</label>
+                                <input asp-for="Image" type="file" class="form-control" />
+                                <span asp-validation-for="Image" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="MetaTitle" class="form-label fw-bold">Meta Title</label>
+                                <input asp-for="MetaTitle" class="form-control" placeholder="Nhập meta title" />
+                                <span asp-validation-for="MetaTitle" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="MetaKeyword" class="form-label fw-bold">Meta Keyword</label>
+                                <input asp-for="MetaKeyword" class="form-control" placeholder="Nhập meta keyword" />
+                                <span asp-validation-for="MetaKeyword" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="MetaDescription" class="form-label fw-bold">Meta Description</label>
+                                <input asp-for="MetaDescription" class="form-control" placeholder="Nhập meta description" />
+                                <span asp-validation-for="MetaDescription" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Slug" class="form-label fw-bold">Slug</label>
+                                <input asp-for="Slug" class="form-control" placeholder="Nhập slug" />
+                                <span asp-validation-for="Slug" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="PriceOld" class="form-label fw-bold">Giá cũ</label>
+                                <input asp-for="PriceOld" class="form-control" placeholder="Nhập giá cũ" />
+                                <span asp-validation-for="PriceOld" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="PriceNew" class="form-label fw-bold">Giá mới</label>
+                                <input asp-for="PriceNew" class="form-control" placeholder="Nhập giá mới" />
+                                <span asp-validation-for="PriceNew" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Size" class="form-label fw-bold">Kích thước</label>
+                                <input asp-for="Size" class="form-control" placeholder="Nhập kích thước" />
+                                <span asp-validation-for="Size" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Views" class="form-label fw-bold">Lượt xem</label>
+                                <input asp-for="Views" class="form-control" placeholder="Nhập số lượt xem" />
+                                <span asp-validation-for="Views" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Likes" class="form-label fw-bold">Lượt thích</label>
+                                <input asp-for="Likes" class="form-control" placeholder="Nhập số lượt thích" />
+                                <span asp-validation-for="Likes" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Star" class="form-label fw-bold">Đánh giá</label>
+                                <input asp-for="Star" class="form-control" placeholder="Nhập đánh giá sao" />
+                                <span asp-validation-for="Star" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Hot" class="form-label fw-bold">Hot</label>
+                                <input asp-for="Hot" class="form-control" placeholder="Nhập trạng thái nóng" />
+                                <span asp-validation-for="Hot" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="AdminCreated" class="form-label fw-bold">Admin Tạo</label>
+                                <input asp-for="AdminCreated" class="form-control" placeholder="Admin tạo sản phẩm" />
+                                <span asp-validation-for="AdminCreated" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <div class="form-group mb-3">
+                                    <label asp-for="AdminUpdated" class="form-label fw-bold">Admin Cập nhật</label>
+                                    <input asp-for="AdminUpdated" class="form-control" placeholder="Admin cập nhật sản phẩm" />
+                                    <span asp-validation-for="AdminUpdated" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Status" class="form-label">Trạng thái</label>
+                                <select asp-for="Status" class="form-control">
+                                    <option value="0">Hoạt động</option>
+                                    <option value="1">Không hoạt động</option>
+                                </select>
+                                <span asp-validation-for="Status" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-info btn-lg px-4 mt-3">Tạo tài khoản</button>
+                            <a asp-action="Index" class="btn btn-secondary btn-lg px-4 mt-3">Quay lại</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

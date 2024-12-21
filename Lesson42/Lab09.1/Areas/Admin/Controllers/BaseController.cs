@@ -11,7 +11,7 @@ namespace Lab09._1.Areas.Admin.Controllers
             if (context.HttpContext.Session.GetString("AdminLogin") == null)
             {
                 context.Result = new RedirectToRouteResult(
-                    new RouteValueDictionary(new { Controller = "Login", Action = "Index", Areas = "Admins" }));
+                    new RouteValueDictionary(new { Controller = "Login", Action = "Index", Areas = "Admin" }));
             }
             base.OnActionExecuted(context);
         }

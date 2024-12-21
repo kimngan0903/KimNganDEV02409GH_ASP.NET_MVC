@@ -1,0 +1,327 @@
+﻿﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+
+    <title>@ViewData["Title"] | DevXuongMoc</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="~/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/logo192.png">
+
+    <!-- Manifest -->
+    <link rel="manifest" href="/manifest.json">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!-- Flaticon -->
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-bold-straight/css/uicons-bold-straight.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/styles.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/css/fonts.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/DevXuongMoc.styles.css" asp-append-version="true">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/snowstorm/1.51/snowstorm-min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <style>
+        /* Định dạng chính cho dropdown */
+        .dropdow {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Liên kết kích hoạt dropdown */
+        .header-auth-text.account {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            border-radius: 50%;
+            background-color: #f8f9fa; /* Nền nhẹ */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng */
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            cursor: pointer;
+        }
+
+            .header-auth-text.account:hover {
+                background-color: #e2e6ea; /* Thay đổi nền khi hover */
+                transform: scale(1.1); /* Phóng to nhẹ khi hover */
+            }
+
+            /* Icon trong liên kết */
+            .header-auth-text.account i {
+                font-size: 24px;
+                color: black;
+            }
+
+        /* Danh sách dropdown */
+        .dropdow-list {
+            display: none;
+            position: absolute;
+            top: calc(100% + 10px); /* Đặt bên dưới nút kích hoạt */
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1000;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 10px 0;
+            min-width: 200px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Hiệu ứng nổi */
+        }
+        /* Xóa dấu chấm của danh sách */
+        .dropdow-list {
+            list-style: none; /* Xóa bullet points */
+            margin: 0; /* Xóa khoảng cách mặc định */
+            padding: 0; /* Xóa khoảng cách trong */
+        }
+
+            /* Định dạng các mục */
+            .dropdow-list li {
+                padding: 0; /* Xóa padding không cần thiết */
+                margin: 0;
+            }
+
+        /* Hiển thị dropdown khi hover */
+        .dropdow:hover .dropdow-list {
+            display: block;
+        }
+
+        /* Item bên trong dropdown */
+        .dropdown-item {
+            display: block;
+            padding: 10px 20px;
+            color: #333;
+            text-decoration: none;
+            font-size: 14px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+            .dropdown-item:hover {
+                background-color: #f0f0f0; /* Nền xám nhạt khi hover */
+                color: #bd945f; 
+            }
+
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+            <img class="logo" src="~/images/anhcat/logo.jpg" alt="logo" />
+        </a>
+        <nav class="navbar">
+            <a class="link" asp-area="" asp-controller="Home" asp-action="Index">Trang chủ </a>
+            <a class="link" asp-area="" asp-controller="AboutUs" asp-action="Index">Giới thiệu</a>
+            <a class="link" asp-area="" asp-controller="Products" asp-action="Index">Sản phẩm</a>
+            <a class="link" asp-area="" asp-controller="News" asp-action="Index">Tin tức</a>
+            <a class="link" asp-area="" asp-controller="Partner" asp-action="Index">Đối tác</a>
+            <a class="link" asp-area="" asp-controller="Contacts" asp-action="Create">Liên hệ</a>
+
+        </nav>
+        <div class="group-icon">
+            <div class="icon icon-cart">
+                <a class="link" id="icon1" asp-area="" asp-controller="Cart" asp-action="Index">
+                    <i class="fi fi-bs-shopping-bag"></i>
+                </a>
+               @*  <div class="box box-carts">
+                    <div class="box__empty">
+                        <p class="box__title">
+                            Giỏ hàng của bạn đang trống !
+                        </p>
+                        <a href="/san-pham">
+                            <div class="check__btn">
+                                Mua hàng ngay
+                            </div>
+                        </a>
+                    </div>
+                </div> *@
+            </div>
+            @*  <div class="icon icon-wishlist">
+            <a class="link" id="icon1" asp-area="" asp-controller="Cart" asp-action="Index">
+            <i class="fi fi-bs-heart"></i>
+            </a>
+            <div id="box2" class="box box-wishlist">
+            <div class="box__empty">
+            <p class="box__title">
+            Danh sách yêu thích trống !
+            </p>
+            <a href="/san-pham">
+            <div class="check__btn">
+            Xem thêm sản phẩm
+            </div>
+            </a>
+            </div>
+            </div>
+            </div> *@
+          @*   <div class="icon">
+                <i class="fi fi-bs-search"></i>
+            </div>
+            <div id="box1" class="search-form">
+                <input id="search" type="text" class="search-box" required="" value="">
+                <label for="search">Bạn cần tìm sản phẩm gì?</label>
+                <a class="search-form__search" href="/tim-kiem?key=">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+            </div>
+            <div id="menu-bar">
+                <i class="fa-solid fa-bars"></i>
+            </div> *@
+            <!-- Icon người với dropdown -->
+            <div class="dropdow">
+                <a href="#" class="header-auth-text account">
+                    <i class="fa fa-user-tie" style="font-size:15px; color:black;"></i>
+                </a>
+                <ul class="dropdow-list" style="background:none;">
+                    <li><a class="dropdown-item" asp-area="CustomerUser" asp-controller="Login" asp-action="Index">Đăng nhập</a></li>
+                    <li><a class="dropdown-item" asp-area="CustomerUser" asp-controller="Customers" asp-action="Create">Đăng ký</a></li>
+                </ul>
+            </div>
+            <button id="scroll-top" class="">
+                <i class="fa-solid fa-chevron-up"></i>
+            </button>
+        </div>
+    </div>
+    <div>
+        <main role="main" class="">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer>
+        <div class="allInfo">
+            <div class="info">
+                <h5>thông tin chung</h5>
+                <p>công ty tnhh hoàng hoan</p>
+                <ul class="list-footer">
+                    <li>
+                        <div class="icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div>
+                            <a href="tel:0999.999.999">0999.999.999</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+                        <div>
+                            <a href="mailto:cskh@hoanghoan.vn">cskh@hoanghoan.vn</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div>
+                            <a>Số 1 Nguyễn Trãi, Thanh Xuân, Hà Nội</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="info">
+                <h5 style="margin-left: 2rem">về chúng tôi</h5>
+                <ul class="list-footer">
+                    <li>
+                        <a href="~/aboutus">Giới thiệu</a>
+                    </li>
+                    <li><a href="~/products">Sản phẩm</a></li>
+                    <li><a href="~/news">Tin tức</a></li>
+                    <li><a href="~/partner">Đối tác</a></li>
+                    <li><a href="~/contacts">Liên hệ</a></li>
+                </ul>
+            </div>
+            <div class="info">
+                <h5>kết nối với chúng tôi</h5>
+                <div class="social">
+                    <a href="/">
+                        <img src="../../images/anhcat/icon_fb_pro.jpg" alt="social images">
+                    </a>
+                    <a href="/"><img src="../../images/anhcat/icon_zalo_pro.jpg" alt="social images"></a>
+                    <a href="/"><img src="../../images/anhcat/icon_email_pro.jpg" alt="social images"></a>
+                </div>
+                <img src="../../images/anhcat/chatluong.jpg" alt="chứng nhận">
+            </div>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+    <script>
+        $(document).ready(function () {
+            // Khi icon được click
+            $('.icon').on('click', function () {
+                $('. search-form').toggleClass('active');
+            });
+        });
+    </script>
+    <script>
+                // JavaScript để xử lý dropdown khi click
+        document.addEventListener('DOMContentLoaded', function () {
+            const dropdown = document.querySelector('.dropdow');
+            const dropdownList = document.querySelector('.dropdow-list');
+
+            // Mở dropdown khi nhấp
+            dropdown.addEventListener('click', function (event) {
+                event.stopPropagation(); // Ngăn chặn sự kiện lan ra ngoài
+                dropdownList.style.display =
+                    dropdownList.style.display === 'block' ? 'none' : 'block';
+            });
+
+            // Đóng dropdown khi nhấp ra ngoài
+            document.addEventListener('click', function () {
+                dropdownList.style.display = 'none';
+            });
+        });
+
+    </script>
+    <script>
+        // Lấy phần tử nút scroll-to-top
+        const scrollTopButton = document.getElementById("scroll-top");
+
+        // Lắng nghe sự kiện cuộn trang
+        window.addEventListener("scroll", () => {
+            // Hiển thị nút khi người dùng cuộn xuống hơn 200px
+            if (window.scrollY > 200) {
+                scrollTopButton.classList.add("active");
+            } else {
+                scrollTopButton.classList.remove("active");
+            }
+        });
+
+        // Thêm sự kiện click vào nút
+        scrollTopButton.addEventListener("click", () => {
+            // Cuộn mượt lên đầu trang
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth",
+            });
+        });
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Khởi tạo hiệu ứng tuyết
+            const snow = new Snowfall();
+            snow.start(); // Bắt đầu hiệu ứng tuyết
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+﻿@model X.PagedList.IPagedList<DevXuongMoc.Models.Partner>
+@using X.PagedList.Mvc.Core;
+@{
+    ViewData["Title"] = "Danh sách Đối Tác";
+    Layout = "~/Areas/AdminQL/Views/Shared/Admin.cshtml";
+}
+<div class="row">
+    <div class="col-md-8">
+        <div class="container mt-5">
+            <h2 class="text-center text-info mb-4">
+                <i class="fas fa-handshake me-2"></i> DANH SÁCH ĐỐI TÁC
+            </h2>
+
+            <!-- Search and Add -->
+            <div class="row mb-3">
+                <div class="col-md-8">
+                    <form action="" method="get" class="form-inline">
+                        <div class="input-group">
+                            <input class="form-control" name="name" id="keyword" value="@ViewBag.keyword" placeholder="Nhập tên đối tác cần tìm" />
+                            <button type="submit" class="btn btn-info">
+                                <i class="fas fa-search"></i> Tìm kiếm
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-4 text-end">
+                    <button class="btn btn-success ajax-action" data-url="@Url.Action("Create")"><i class="fas fa-plus"></i> Thêm mới</button>
+                </div>
+            </div>
+
+            <!-- Partner List Table -->
+            <table class="table table-hover table-bordered">
+                <thead class="table-dark">
+                    <tr>
+                        <th class="text-center" style="width: 200px">
+                            @Html.DisplayNameFor(model => model.FirstOrDefault().Title)
+                        </th>
+                        <th class="text-center">
+                            @Html.DisplayNameFor(model => model.FirstOrDefault().Logo)
+                        </th>
+                        <th class="text-center">
+                            @Html.DisplayNameFor(model => model.FirstOrDefault().Status)
+                        </th>
+                        <th class="text-center">Hành động</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.Any())
+                    {
+                        foreach (var item in Model)
+                        {
+                            <tr>
+                                <td class="text-center">
+                                    @Html.DisplayFor(modelItem => item.Title)
+                                </td>
+                                <td class="text-center">
+                                    <img src="@item.Logo" alt="@item.Title" style="width: 80px; height: 80px" />
+                                </td>
+                                <td class="text-center">
+                                    @if (item.Status == 0)
+                                    {
+                                        <span class="text-success">Hoạt động</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="text-danger"> Không hoạt động</span>
+                                    }
+                                </td>
+                                <td class="text-center">
+                                    <button class="btn btn-warning btn-sm ajax-action" data-url="@Url.Action("Edit", new { id = item.Id })"><i class="fas fa-edit"></i> Sửa</button>
+                                    <button class="btn btn-info btn-sm ajax-action" data-url="@Url.Action("Details", new { id = item.Id })"> <i class="fas fa-info-circle"></i>Chi tiết</button>
+                                    <button class="btn btn-danger btn-sm ajax-action" data-url="@Url.Action("Delete", new { id = item.Id })"><i class="fas fa-trash"></i>Xóa</button>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="4" class="text-center text-muted">Không có dữ liệu.</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+            <!-- Pagination -->
+            <div class="d-flex justify-content-center">
+                @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }), new PagedListRenderOptions
+           {
+               LiElementClasses = new string[] { "page-item" },
+               PageClasses = new string[] { "page-link" },
+               MaximumPageNumbersToDisplay = 5,
+               DisplayLinkToNextPage = X.PagedList.Mvc.Common.PagedListDisplayMode.Always,
+               DisplayLinkToPreviousPage = X.PagedList.Mvc.Common.PagedListDisplayMode.Always
+           })
+            </div>
+        </div>
+
+    </div>
+    <div class="col-md-4">
+        <div class="click">
+        </div>
+
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $(".ajax-action").click(function (e) {
+            e.preventDefault();
+
+            // Get the URL from the data attribute
+            var url = $(this).data("url");
+
+            // Load the content into the .click div
+            $(".click").load(url, function (response, status, xhr) {
+                if (status == "error") {
+                    alert("Error: " + xhr.status + " " + xhr.statusText);
+                }
+            });
+        });
+    });
+</script>

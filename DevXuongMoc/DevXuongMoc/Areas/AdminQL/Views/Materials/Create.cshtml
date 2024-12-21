@@ -1,0 +1,99 @@
+﻿@model DevXuongMoc.Models.Material
+
+@{
+    ViewData["Title"] = "Tạo Material";
+    Layout = "~/Areas/AdminQL/Views/Shared/Admin.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="text-center mb-4">
+        <h1 class="display-4 text-info">TẠO MATERIAL</h1>
+        <p class="lead text-secondary">Vui lòng điền thông tin bên dưới để tạo Material mới.</p>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-10">
+            <div class="card shadow-sm border-0">
+                <div class="card-body">
+                    <form asp-action="Create" enctype="multipart/form-data">
+                        <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Title" class="form-label fw-bold">Tiêu đề</label>
+                                <input asp-for="Title" class="form-control" placeholder="Nhập tiêu đề" />
+                                <span asp-validation-for="Title" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Icon" class="form-label fw-bold">Icon</label>
+                                <input asp-for="Icon" type="file" class="form-control" placeholder="Nhập icon" />
+                                <span asp-validation-for="Icon" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="MetaTitle" class="form-label fw-bold">Meta Title</label>
+                                <input asp-for="MetaTitle" class="form-control" placeholder="Nhập Meta Title" />
+                                <span asp-validation-for="MetaTitle" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="MetaKeyword" class="form-label fw-bold">Meta Keyword</label>
+                                <input asp-for="MetaKeyword" class="form-control" placeholder="Nhập Meta Keyword" />
+                                <span asp-validation-for="MetaKeyword" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="MetaDescription" class="form-label fw-bold">Meta Description</label>
+                            <input asp-for="MetaDescription" class="form-control" placeholder="Nhập Meta Description" />
+                            <span asp-validation-for="MetaDescription" class="text-danger"></span>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Slug" class="form-label fw-bold">Slug</label>
+                                <input asp-for="Slug" class="form-control" placeholder="Nhập Slug" />
+                                <span asp-validation-for="Slug" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Orders" class="form-label fw-bold">Thứ tự</label>
+                                <input asp-for="Orders" class="form-control" placeholder="Nhập thứ tự" />
+                                <span asp-validation-for="Orders" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Notes" class="form-label fw-bold">Ghi chú</label>
+                            <textarea asp-for="Notes" class="form-control" placeholder="Nhập ghi chú"></textarea>
+                            <span asp-validation-for="Notes" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Status" class="form-label fw-bold">Trạng thái</label>
+                            <select asp-for="Status" class="form-select">
+                                <option value="0">Hoạt động</option>
+                                <option value="1">Không hoạt động</option>
+                            </select>
+                            <span asp-validation-for="Status" class="text-danger"></span>
+                        </div>
+
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-info btn-lg px-4 mt-3">Tạo mới</button>
+                            <a asp-action="Index" class="btn btn-secondary btn-lg px-4 mt-3">Quay lại danh sách</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

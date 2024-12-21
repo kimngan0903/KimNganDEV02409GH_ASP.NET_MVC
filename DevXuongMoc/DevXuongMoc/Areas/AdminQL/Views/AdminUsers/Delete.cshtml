@@ -1,0 +1,165 @@
+﻿@model DevXuongMoc.Models.AdminUser
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Areas/AdminQL/Views/Shared/Admin.cshtml";
+}
+
+<div class="container mt-5">
+    <!-- Title Section -->
+    <div class="text-center mb-5">
+        <h1 class="display-4 text-danger font-weight-bold">XÁC NHẬN XÓA</h1>
+        <p class="lead text-muted">Bạn chắc chắn muốn xóa người dùng này không? Hãy kiểm tra thông tin dưới đây trước khi quyết định.</p>
+    </div>
+
+    <!-- Card for User Details -->
+    <div class="card shadow-lg border-0 mb-5">
+        <div class="card-body">
+            <h4 class="card-title text-center text-info font-weight-bold">CHI TIẾT NGƯỜI DÙNG</h4>
+            <hr class="my-4" />
+
+            <div class="row">
+                <!-- Left Column (First Half) -->
+                <div class="col-md-6">
+                    <!-- Each detail inside its own border -->
+                    <div class="border p-2 mb-3 rounded">
+                        <dl class="row">
+                            <dt class="col-sm-4 text-dark font-weight-bold">Tài khoản</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.Account)</dd>
+                        </dl>
+                    </div>
+
+                    <div class="border p-2 mb-3 rounded">
+                        <dl class="row">
+                            <dt class="col-sm-4 text-dark font-weight-bold">Mật khẩu</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.Password)</dd>
+                        </dl>
+                    </div>
+
+                    <div class="border p-2 mb-3 rounded">
+                        <dl class="row">
+                            <dt class="col-sm-4 text-dark font-weight-bold">Mã Nhân Sự</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.MaNhanSu)</dd>
+                        </dl>
+                    </div>
+
+                    <div class="border p-2 mb-3 rounded">
+                        <dl class="row">
+                            <dt class="col-sm-4 text-dark font-weight-bold">Tên</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.Name)</dd>
+                        </dl>
+                    </div>
+
+                    <div class="border p-2 mb-3 rounded">
+                        <dl class="row">
+                            <dt class="col-sm-4 text-dark font-weight-bold">Số điện thoại</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.Phone)</dd>
+                        </dl>
+                    </div>
+
+                    <div class="border p-2 mb-3 rounded">
+                        <dl class="row">
+                            <dt class="col-sm-4 text-dark font-weight-bold">Email</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.Email)</dd>
+                        </dl>
+                    </div>
+                </div>
+
+                <!-- Right Column (Second Half) -->
+                <div class="col-md-6">
+                    <div class="border p-2 mb-3 rounded">
+                        <dl class="row">
+                            <dt class="col-sm-4 text-dark font-weight-bold">Avatar</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.Avatar)</dd>
+                        </dl>
+                    </div>
+
+                    <div class="border p-2 mb-3 rounded">
+                        <dl class="row">
+                            <dt class="col-sm-4 text-dark font-weight-bold">Mã Phòng Ban</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.IdPhongBan)</dd>
+                        </dl>
+                    </div>
+
+                    <div class="border p-2 mb-3 rounded">
+                        <dl class="row">
+                            <dt class="col-sm-4 text-dark font-weight-bold">Ngày Tạo</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.NgayTao)</dd>
+                        </dl>
+                    </div>
+
+                    <div class="border p-2 mb-3 rounded">
+                        <dl class="row">
+                            <dt class="col-sm-4 text-dark font-weight-bold">Người Tạo</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.NguoiTao)</dd>
+                        </dl>
+                    </div>
+
+                    <div class="border p-2 mb-3 rounded">
+                        <dl class="row">
+                            <dt class="col-sm-4 text-dark font-weight-bold">Ngày Cập Nhật</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.NgayCapNhat)</dd>
+                        </dl>
+                    </div>
+
+                    <div class="border p-2 mb-3 rounded">
+                        <dl class="row">
+                            <dt class="col-sm-4 text-dark font-weight-bold">Người Cập Nhật</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.NguoiCapNhat)</dd>
+                        </dl>
+                    </div>
+
+                    <div class="border p-2 mb-3 rounded">
+                        <dl class="row">
+                            <dt class="col-sm-4 text-dark font-weight-bold">Session Token</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.SessionToken)</dd>
+                        </dl>
+                    </div>
+
+                    <div class="border p-2 mb-3 rounded">
+                        <dl class="row">
+                            <dt class="col-sm-4 text-dark font-weight-bold">Salt</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.Salt)</dd>
+                        </dl>
+                    </div>
+
+                    <div class="border p-2 mb-3 rounded">
+                        <dl class="row">
+                            <dt class="col-sm-4 text-dark font-weight-bold">Is Admin</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.IsAdmin)</dd>
+                        </dl>
+                    </div>
+
+                    <div class="border p-2 mb-3 rounded">
+                        <dl class="row">
+                            <dt class="col-sm-4 text-dark font-weight-bold">Trạng thái</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.TrangThai)</dd>
+                        </dl>
+                    </div>
+
+                    <div class="border p-2 mb-3 rounded">
+                        <dl class="row">
+                            <dt class="col-sm-4 text-dark font-weight-bold">Xóa</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.IsDelete)</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Action Buttons -->
+    <div class="text-center">
+        <form asp-action="Delete" class="d-inline-block">
+            <input type="hidden" asp-for="Id" />
+            <button type="submit" class="btn btn-danger btn-lg mb-3 px-5">Xóa Người Dùng</button>
+        </form>
+        <a asp-action="Index" class="btn btn-secondary btn-lg mb-3 px-5">Quay Lại Danh Sách</a>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

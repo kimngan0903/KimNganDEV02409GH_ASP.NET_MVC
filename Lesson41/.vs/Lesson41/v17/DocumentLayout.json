@@ -3,6 +3,38 @@
   "WorkspaceRootPath": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{519ED46F-C683-45F9-98FC-15CA73A00CE7}|Lab07\\Lab07.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson41\\lab07\\areas\\admin\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{519ED46F-C683-45F9-98FC-15CA73A00CE7}|Lab07\\Lab07.csproj|solutionrelative:lab07\\areas\\admin\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{519ED46F-C683-45F9-98FC-15CA73A00CE7}|Lab07\\Lab07.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson41\\lab07\\areas\\admin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{519ED46F-C683-45F9-98FC-15CA73A00CE7}|Lab07\\Lab07.csproj|solutionrelative:lab07\\areas\\admin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{519ED46F-C683-45F9-98FC-15CA73A00CE7}|Lab07\\Lab07.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson41\\lab07\\areas\\admin\\views\\banners\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{519ED46F-C683-45F9-98FC-15CA73A00CE7}|Lab07\\Lab07.csproj|solutionrelative:lab07\\areas\\admin\\views\\banners\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{519ED46F-C683-45F9-98FC-15CA73A00CE7}|Lab07\\Lab07.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson41\\lab07\\areas\\admin\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{519ED46F-C683-45F9-98FC-15CA73A00CE7}|Lab07\\Lab07.csproj|solutionrelative:lab07\\areas\\admin\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{519ED46F-C683-45F9-98FC-15CA73A00CE7}|Lab07\\Lab07.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson41\\lab07\\areas\\admin\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{519ED46F-C683-45F9-98FC-15CA73A00CE7}|Lab07\\Lab07.csproj|solutionrelative:lab07\\areas\\admin\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{519ED46F-C683-45F9-98FC-15CA73A00CE7}|Lab07\\Lab07.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson41\\lab07\\areas\\admin\\views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{519ED46F-C683-45F9-98FC-15CA73A00CE7}|Lab07\\Lab07.csproj|solutionrelative:lab07\\areas\\admin\\views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{519ED46F-C683-45F9-98FC-15CA73A00CE7}|Lab07\\Lab07.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson41\\lab07\\areas\\admin\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{519ED46F-C683-45F9-98FC-15CA73A00CE7}|Lab07\\Lab07.csproj|solutionrelative:lab07\\areas\\admin\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{519ED46F-C683-45F9-98FC-15CA73A00CE7}|Lab07\\Lab07.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson41\\lab07\\areas\\admin\\views\\shared\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{519ED46F-C683-45F9-98FC-15CA73A00CE7}|Lab07\\Lab07.csproj|solutionrelative:lab07\\areas\\admin\\views\\shared\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{519ED46F-C683-45F9-98FC-15CA73A00CE7}|Lab07\\Lab07.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson41\\lab07\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{519ED46F-C683-45F9-98FC-15CA73A00CE7}|Lab07\\Lab07.csproj|solutionrelative:lab07\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,12 +47,8 @@
       "RelativeMoniker": "D:0:0:{519ED46F-C683-45F9-98FC-15CA73A00CE7}|Lab07\\Lab07.csproj|solutionrelative:lab07\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{519ED46F-C683-45F9-98FC-15CA73A00CE7}|Lab07\\Lab07.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson41\\lab07\\areas\\admin\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{519ED46F-C683-45F9-98FC-15CA73A00CE7}|Lab07\\Lab07.csproj|solutionrelative:lab07\\areas\\admin\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{519ED46F-C683-45F9-98FC-15CA73A00CE7}|Lab07\\Lab07.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson41\\lab07\\areas\\admin\\views\\shared\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{519ED46F-C683-45F9-98FC-15CA73A00CE7}|Lab07\\Lab07.csproj|solutionrelative:lab07\\areas\\admin\\views\\shared\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{519ED46F-C683-45F9-98FC-15CA73A00CE7}|Lab07\\Lab07.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson41\\lab07\\areas\\admin\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{519ED46F-C683-45F9-98FC-15CA73A00CE7}|Lab07\\Lab07.csproj|solutionrelative:lab07\\areas\\admin\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{519ED46F-C683-45F9-98FC-15CA73A00CE7}|Lab07\\Lab07.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson41\\lab07\\areas\\admin\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -29,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{519ED46F-C683-45F9-98FC-15CA73A00CE7}|Lab07\\Lab07.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson41\\lab07\\areas\\admin\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{519ED46F-C683-45F9-98FC-15CA73A00CE7}|Lab07\\Lab07.csproj|solutionrelative:lab07\\areas\\admin\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{519ED46F-C683-45F9-98FC-15CA73A00CE7}|Lab07\\Lab07.csproj|d:\\dev_02409gh_kn\\kimngandev02409gh_asp.net_mvc\\lesson41\\lab07\\areas\\admin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{519ED46F-C683-45F9-98FC-15CA73A00CE7}|Lab07\\Lab07.csproj|solutionrelative:lab07\\areas\\admin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,60 +66,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_NavBar.cshtml",
-              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\Areas\\Admin\\Views\\Shared\\_NavBar.cshtml",
-              "RelativeDocumentMoniker": "Lab07\\Areas\\Admin\\Views\\Shared\\_NavBar.cshtml",
-              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\Areas\\Admin\\Views\\Shared\\_NavBar.cshtml",
-              "RelativeToolTip": "Lab07\\Areas\\Admin\\Views\\Shared\\_NavBar.cshtml",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-19T03:00:05.678Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\Program.cs",
-              "RelativeDocumentMoniker": "Lab07\\Program.cs",
-              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\Program.cs",
-              "RelativeToolTip": "Lab07\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwA4AAAAAAAAAAAAAAA==",
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Lab07\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Lab07\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAA8wBgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T02:51:30.017Z",
+              "WhenOpened": "2024-11-29T02:37:52.061Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Admin.cshtml",
-              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\Areas\\Admin\\Views\\Shared\\Admin.cshtml",
-              "RelativeDocumentMoniker": "Lab07\\Areas\\Admin\\Views\\Shared\\Admin.cshtml",
-              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\Areas\\Admin\\Views\\Shared\\Admin.cshtml",
-              "RelativeToolTip": "Lab07\\Areas\\Admin\\Views\\Shared\\Admin.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-19T03:00:21.031Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
-              "RelativeDocumentMoniker": "Lab07\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
-              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
-              "RelativeToolTip": "Lab07\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
-              "ViewState": "AgIAACsAAAAAAAAAAAAqwEMAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-19T03:03:15.08Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\appsettings.json",
               "RelativeDocumentMoniker": "Lab07\\appsettings.json",
@@ -107,7 +95,129 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Admin.cshtml",
+              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\Areas\\Admin\\Views\\Shared\\Admin.cshtml",
+              "RelativeDocumentMoniker": "Lab07\\Areas\\Admin\\Views\\Shared\\Admin.cshtml",
+              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\Areas\\Admin\\Views\\Shared\\Admin.cshtml",
+              "RelativeToolTip": "Lab07\\Areas\\Admin\\Views\\Shared\\Admin.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-19T03:00:21.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Lab07\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Lab07\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAADwv4kAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T02:28:06.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\Areas\\Admin\\Views\\Categories\\Details.cshtml",
+              "RelativeDocumentMoniker": "Lab07\\Areas\\Admin\\Views\\Categories\\Details.cshtml",
+              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\Areas\\Admin\\Views\\Categories\\Details.cshtml",
+              "RelativeToolTip": "Lab07\\Areas\\Admin\\Views\\Categories\\Details.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T02:17:24.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\Areas\\Admin\\Views\\Categories\\Create.cshtml",
+              "RelativeDocumentMoniker": "Lab07\\Areas\\Admin\\Views\\Categories\\Create.cshtml",
+              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\Areas\\Admin\\Views\\Categories\\Create.cshtml",
+              "RelativeToolTip": "Lab07\\Areas\\Admin\\Views\\Categories\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T02:16:57.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Lab07\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "Lab07\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAmwEMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-19T03:03:15.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\Areas\\Admin\\Views\\Banners\\Index.cshtml",
+              "RelativeDocumentMoniker": "Lab07\\Areas\\Admin\\Views\\Banners\\Index.cshtml",
+              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\Areas\\Admin\\Views\\Banners\\Index.cshtml",
+              "RelativeToolTip": "Lab07\\Areas\\Admin\\Views\\Banners\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T07:33:26.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "Lab07\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "Lab07\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-19T02:27:04.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\Areas\\Admin\\Views\\Categories\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Lab07\\Areas\\Admin\\Views\\Categories\\Edit.cshtml",
+              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\Areas\\Admin\\Views\\Categories\\Edit.cshtml",
+              "RelativeToolTip": "Lab07\\Areas\\Admin\\Views\\Categories\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T02:28:38.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\Program.cs",
+              "RelativeDocumentMoniker": "Lab07\\Program.cs",
+              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\Program.cs",
+              "RelativeToolTip": "Lab07\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T02:51:30.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\Areas\\Admin\\Views\\Categories\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Lab07\\Areas\\Admin\\Views\\Categories\\Delete.cshtml",
+              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\Areas\\Admin\\Views\\Categories\\Delete.cshtml",
+              "RelativeToolTip": "Lab07\\Areas\\Admin\\Views\\Categories\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T08:00:39.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "_SideBar.cshtml",
               "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\Areas\\Admin\\Views\\Shared\\_SideBar.cshtml",
               "RelativeDocumentMoniker": "Lab07\\Areas\\Admin\\Views\\Shared\\_SideBar.cshtml",
@@ -119,27 +229,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\Areas\\Admin\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "Lab07\\Areas\\Admin\\Controllers\\CategoriesController.cs",
-              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\Areas\\Admin\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "Lab07\\Areas\\Admin\\Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T02:28:06.025Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
-              "RelativeDocumentMoniker": "Lab07\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
-              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
-              "RelativeToolTip": "Lab07\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADoAAABjAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "_NavBar.cshtml",
+              "DocumentMoniker": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\Areas\\Admin\\Views\\Shared\\_NavBar.cshtml",
+              "RelativeDocumentMoniker": "Lab07\\Areas\\Admin\\Views\\Shared\\_NavBar.cshtml",
+              "ToolTip": "D:\\DEV_02409GH_KN\\KimNganDEV02409GH_ASP.NET_MVC\\Lesson41\\Lab07\\Areas\\Admin\\Views\\Shared\\_NavBar.cshtml",
+              "RelativeToolTip": "Lab07\\Areas\\Admin\\Views\\Shared\\_NavBar.cshtml",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-19T02:27:04.37Z"
+              "WhenOpened": "2024-11-19T03:00:05.678Z"
             }
           ]
         }

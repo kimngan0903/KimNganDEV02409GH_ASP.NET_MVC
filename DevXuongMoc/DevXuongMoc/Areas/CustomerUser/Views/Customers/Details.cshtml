@@ -1,0 +1,69 @@
+﻿@model DevXuongMoc.Models.Customer
+
+@{
+    ViewData["Title"] = "Thông tin khách hàng";
+    Layout = "~/Areas/CustomerUser/Views/Shared/_Customer.cshtml";
+}
+
+<div class="container my-5">
+    <div class="row justify-content-center align-items-center" style="margin-top: 10rem;">
+        <!-- Cột thông tin khách hàng -->
+        <div class="col-md-8">
+            <div class="card shadow-lg">
+                <div class="card-header bg-info text-white text-center">
+                    <h4 class="mb-0">Chi tiết khách hàng</h4>
+                </div>
+                <div class="card-body">
+                    <table class="table table-striped table-bordered">
+                        <tbody>
+                            <tr>
+                                <th scope="row" class="w-25">Họ và tên</th>
+                                <td>@Html.DisplayFor(model => model.Name)</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Tên đăng nhập</th>
+                                <td>@Html.DisplayFor(model => model.Username)</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Mật khẩu</th>
+                                <td>@Html.DisplayFor(model => model.Password)</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Địa chỉ</th>
+                                <td>@Html.DisplayFor(model => model.Address)</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Email</th>
+                                <td>@Html.DisplayFor(model => model.Email)</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Số điện thoại</th>
+                                <td>@Html.DisplayFor(model => model.Phone)</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Ảnh đại diện</th>
+                                <td>
+                                    @if (!string.IsNullOrEmpty(Model.Avatar))
+                                    {
+                                        <img src="@Model.Avatar" alt="Avatar" class="img-thumbnail" style="max-width: 150px;">
+                                    }
+                                    else
+                                    {
+                                        <span class="text-muted">Chưa có ảnh đại diện</span>
+                                    }
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="card-footer text-center">
+                    <a asp-action="Edit" asp-route-id="@Model?.CustomerId" class="btn btn-warning mx-2">Chỉnh sửa</a>
+                    <a class="btn btn-secondary mx-2" onclick="window.history.back();">Quay lại danh sách</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cột thông tin đơn hàng có thể thêm ở đây nếu cần -->
+    </div>
+</div>
+

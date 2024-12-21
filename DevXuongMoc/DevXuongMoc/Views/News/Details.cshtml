@@ -1,0 +1,104 @@
+﻿@model DevXuongMoc.Models.News
+
+@{
+    ViewData["Title"] = "Chi tiết tin tức";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+
+    .detail-news {
+        background-color: #f3f3f3;
+        padding: 1rem 0;
+    }
+
+    .news-container {
+        background-color: #fff;
+        margin-top: 5rem;
+        width: calc(12*100%/18);
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3rem;
+        text-align: center;
+        padding: 20px;
+    }
+
+        .news-container img {
+            object-fit: cover;
+        }
+
+    .news-title {
+        font-size: 2rem;
+        font-weight: bold;
+        color: #2c3e50;
+        margin-bottom: 20px;
+    }
+
+    .news-image {
+        width: 90%;
+        height: 300px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .news-description {
+        font-size: 1.2rem;
+        color: #5a5a5a;
+        line-height: 1.8;
+        margin-top: 10px;
+    }
+
+    .news-container h1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    h1:after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 50%;
+        max-width: 10rem;
+        border-top: 0.35rem solid #bd945f;
+    }
+
+    .news-container h1 {
+        text-transform: uppercase;
+        font-family: Gotham-Ultra;
+        color: var(--color);
+        position: relative;
+        display: inline-block;
+        margin-bottom: 2rem;
+        font-size: 2rem;
+    }
+
+    .news-description p {
+        font-family: Gotham-Medium;
+    }
+
+    .news-btn {
+        text-align: center;
+        margin-top: -1rem;
+    }
+</style>
+
+<div class="detail-news">
+    <div class="news-container" style="margin-top: 10rem">
+        <!-- Tiêu đề -->
+        <h1 class="news-title">@Model.Title</h1>
+
+        <!-- Hình ảnh -->
+        <img src="@Model.Image" alt="@Model.Title" class="news-image">
+
+        <!-- Nội dung mô tả -->
+        <p class="news-description"><b style="font-family: Gotham-Medium;">@Html.Raw(Model.Description)</b></p>
+    </div>
+    <div class="news-btn">
+        <button type="button" class="btn btn-secondary">
+            <a class="text-white" onclick="window.history.back();">Quay lại</a>
+        </button>
+    </div>
+</div>

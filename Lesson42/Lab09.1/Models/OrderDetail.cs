@@ -5,11 +5,11 @@ namespace Lab09._1.Models;
 
 public partial class Orderdetail
 {
-    public long Id { get; set; }
+    public int Id { get; set; }
 
-    public long? Idord { get; set; }
+    public int? Idorders { get; set; }
 
-    public long? Idproduct { get; set; }
+    public int? Idproduct { get; set; }
 
     public decimal? Price { get; set; }
 

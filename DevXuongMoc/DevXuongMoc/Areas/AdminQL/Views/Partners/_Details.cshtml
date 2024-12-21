@@ -1,0 +1,134 @@
+﻿@model DevXuongMoc.Models.Partner
+
+@{
+    ViewData["Title"] = "Chi Tiết Đối Tác";
+}
+
+<div class="container mt-5">
+    <div class="text-center mb-5">
+        <h2 class="display-8 text-info">CHI TIẾT ĐỐI TÁC</h2>
+        <p class="lead text-secondary" style="font-size: 13px">Dưới đây là thông tin chi tiết của đối tác.</p>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-lg-12 col-md-10">
+            <div class="card shadow-sm border-0">
+                <div class="card-body">
+                    <dl class="row">
+                        <dt class="col-md-6 fw-bold">
+                            @Html.DisplayNameFor(model => model.Title)
+                        </dt>
+                        <dd class="col-sm-6">
+                            @Html.DisplayFor(model => model.Title)
+                        </dd>
+
+                        <dt class="col-md-6 fw-bold">
+                            @Html.DisplayNameFor(model => model.Logo)
+                        </dt>
+                        <dd class="col-sm-6">
+                            @if (!string.IsNullOrEmpty(Model.Logo))
+                            {
+                                <img src="@Model.Logo" alt="@Model.Title" class="img-thumbnail" style="max-height: 100px;" />
+                            }
+                            else
+                            {
+                                <span>Không có ảnh</span>
+                            }
+                        </dd>
+
+                        <dt class="col-md-6 fw-bold">
+                            @Html.DisplayNameFor(model => model.Url)
+                        </dt>
+                        <dd class="col-sm-6">
+                            @Html.DisplayFor(model => model.Url)
+                        </dd>
+
+                        <dt class="col-md-6 fw-bold">
+                            @Html.DisplayNameFor(model => model.Orders)
+                        </dt>
+                        <dd class="col-sm-6">
+                            @Html.DisplayFor(model => model.Orders)
+                        </dd>
+                        <dt class="col-md-6 fw-bold">
+                            @Html.DisplayNameFor(model => model.CreatedDate)
+                        </dt>
+                        <dd class="col-sm-6">
+                            @Html.DisplayFor(model => model.CreatedDate)
+                        </dd>
+
+                        <dt class="col-md-6 fw-bold">
+                            @Html.DisplayNameFor(model => model.UpdatedDate)
+                        </dt>
+                        <dd class="col-sm-6">
+                            @Html.DisplayFor(model => model.UpdatedDate)
+                        </dd>
+
+                        <dt class="col-md-6 fw-bold">
+                            @Html.DisplayNameFor(model => model.AdminCreated)
+                        </dt>
+                        <dd class="col-sm-6">
+                            @Html.DisplayFor(model => model.AdminCreated)
+                        </dd>
+
+                        <dt class="col-md-6 fw-bold">
+                            @Html.DisplayNameFor(model => model.AdminUpdated)
+                        </dt>
+                        <dd class="col-sm-6">
+                            @Html.DisplayFor(model => model.AdminUpdated)
+                        </dd>
+
+                        <dt class="col-md-6 fw-bold">
+                            @Html.DisplayNameFor(model => model.Content)
+                        </dt>
+                        <dd class="col-sm-6">
+                            @Html.DisplayFor(model => model.Content)
+                        </dd>
+
+                        <dt class="col-md-6 fw-bold">
+                            @Html.DisplayNameFor(model => model.Status)
+                        </dt>
+                        <dd class="col-sm-6">
+                            @if (Model.Status == 0)
+                            {
+                                <span class="text-success">Hoạt động</span>
+                            }
+                            else
+                            {
+                                <span class="text-danger">Không hoạt động</span>
+                            }
+                        </dd>
+
+                        <dt class="col-md-6 fw-bold">
+                            @Html.DisplayNameFor(model => model.Isdelete)
+                        </dt>
+                        <dd class="col-sm-6">
+                            @Html.DisplayFor(model => model.Isdelete)
+                        </dd>
+                    </dl>
+                    <div class="text-center">
+                        <button class="btn btn-warning  btn-lg px-4 mt-3 ajax-action" data-url="@Url.Action("Edit", new { id = Model.Id })">Chỉnh sửa</button>
+                        <a asp-action="Index" class="btn btn-secondary btn-lg px-4 mt-3">Quay lại</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $(".ajax-action").click(function (e) {
+            e.preventDefault();
+
+            // Get the URL from the data attribute
+            var url = $(this).data("url");
+
+            // Load the content into the .click div
+            $(".click").load(url, function (response, status, xhr) {
+                if (status == "error") {
+                    alert("Error: " + xhr.status + " " + xhr.statusText);
+                }
+            });
+        });
+    });
+</script>

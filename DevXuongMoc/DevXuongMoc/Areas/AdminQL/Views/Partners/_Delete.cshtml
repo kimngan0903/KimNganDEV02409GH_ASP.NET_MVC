@@ -1,0 +1,70 @@
+﻿@model DevXuongMoc.Models.Partner
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<div class="container mt-5">
+    <div class="text-center mb-5">
+        <h2 class="display-8 text-danger">XÁC NHẬN XÓA</h2>
+        <p class="lead text-muted" style="font-size: 15px">Bạn chắc chắn muốn xóa đối tác này không? Hãy kiểm tra thông tin dưới đây trước khi quyết định.</p>
+    </div>
+
+    <div class="card shadow-lg border-0 mb-4">
+        <div class="card-body">
+            <h4 class="card-title text-center text-info font-weight-bold">CHI TIẾT NGƯỜi DÙNG</h4>
+            <hr class="my-4" />
+
+            <div class="row">
+                <div class="col-md-12 offset-md-0">
+                    <div class="border p-2 mb-3 rounded">
+                        <dl class="row">
+                            <dt class="col-sm-4 text-dark font-weight-bold">Tên đối tác</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.Title)</dd>
+                        </dl>
+                    </div>
+
+                    <div class="border p-2 mb-3 rounded">
+                        <dl class="row">
+                            <dt class="col-sm-4 text-dark font-weight-bold">Logo</dt>
+                            <dd class="col-sm-8">
+                                <img src="@Model.Logo" alt="@Model.Title" class="img-fluid rounded-circle" style="max-width: 100px; max-height: 100px;" />
+                            </dd>
+                        </dl>
+                    </div>
+
+                    <div class="border p-2 mb-3 rounded">
+                        <dl class="row">
+                            <dt class="col-sm-4 text-dark font-weight-bold">Trạng thái</dt>
+                            <dd class="col-sm-8">
+                                @if (Model.Status == 0)
+                                {
+                                    <span class="text-success">Hoạt động</span>
+                                }
+                                else
+                                {
+                                    <span class="text-danger">Không hoạt động</span>
+                                }
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Action Buttons -->
+<div class="text-center">
+    <form asp-action="Delete" class="d-inline-block">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="btn btn-danger btn-lg mb-3 px-4">Xác nhận</button>
+    </form>
+    <a asp-action="Index" class="btn btn-secondary btn-lg mb-3 px-4">Quay lại</a>
+</div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,77 @@
+﻿@model DevXuongMoc.Models.AdminUser
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<div class="container mt-5">
+    <!-- Title Section -->
+    <div class="text-center mb-4">
+        <h2 class="display-8 text-danger font-weight-bold">XÁC NHẬN XÓA</h2>
+        <p class="lead text-muted" style="font-size: 15px">Bạn chắc chắn muốn xóa người dùng này không? Hãy kiểm tra thông tin dưới đây trước khi quyết định.</p>
+    </div>
+
+    <!-- Card for User Details -->
+    <div class="card shadow-lg border-0 mb-4">
+        <div class="card-body">
+            <h4 class="card-title text-center text-info font-weight-bold">CHI TIẾT NGƯỜi DÙNG</h4>
+            <hr class="my-4" />
+
+            <div class="row">
+                <!-- User Details -->
+                <div class="col-md-12 offset-md-0">
+                    <div class="border p-2 mb-3 rounded">
+                        <dl class="row">
+                            <dt class="col-sm-4 text-dark font-weight-bold">Tài khoản</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.Account)</dd>
+                        </dl>
+                    </div>
+
+                    <div class="border p-2 mb-3 rounded">
+                        <dl class="row">
+                            <dt class="col-sm-4 text-dark font-weight-bold">Tên</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.Name)</dd>
+                        </dl>
+                    </div>
+
+                    <div class="border p-2 mb-3 rounded">
+                        <dl class="row">
+                            <dt class="col-sm-4 text-dark font-weight-bold">Email</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.Email)</dd>
+                        </dl>
+                    </div>
+
+                    <div class="border p-2 mb-3 rounded">
+                        <dl class="row">
+                            <dt class="col-sm-4 text-dark font-weight-bold">Mật khẩu</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.Password)</dd>
+                        </dl>
+                    </div>
+                    <div class="border p-2 mb-3 rounded">
+                        <dl class="row">
+                            <dt class="col-sm-4 text-dark font-weight-bold">Avatar</dt>
+                            <dd class="col-sm-8">
+                                <img src="@Model.Avatar" alt="@Model.Name" class="img-fluid rounded-circle" style="max-width: 100px; max-height: 100px;" />
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Action Buttons -->
+    <div class="text-center">
+        <form asp-action="Delete" class="d-inline-block">
+            <input type="hidden" asp-for="Id" />
+            <button type="submit" class="btn btn-danger btn-lg mb-3 px-4">Xác nhận</button>
+        </form>
+        <a asp-action="Index" class="btn btn-secondary btn-lg mb-3 px-4">Quay lại</a>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

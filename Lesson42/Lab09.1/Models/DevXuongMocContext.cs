@@ -57,13 +57,13 @@ public partial class DevXuongMocContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=Ruby;Database=DevXuongMoc;uid=sa;pwd=123456;MultipleActiveResultSets=True;TrustServerCertificate=True");
+        => optionsBuilder.UseSqlServer("Server=Ruby;Database=Dev_Xuong_Moc;uid=sa;pwd=123456;MultipleActiveResultSets=True;TrustServerCertificate=True");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<AdminLog>(entity =>
         {
-            entity.HasKey(e => e.LogId).HasName("PK__ADMIN_LO__4364C8821C166F89");
+            entity.HasKey(e => e.LogId).HasName("PK__ADMIN_LO__4364C882AFAAF474");
 
             entity.ToTable("ADMIN_LOG");
 
@@ -301,16 +301,15 @@ public partial class DevXuongMocContext : DbContext
 
         modelBuilder.Entity<Customer>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__CUSTOMER__3214EC271C9F7720");
-
             entity.ToTable("CUSTOMER");
 
-            entity.Property(e => e.Id)
-                .ValueGeneratedNever()
-                .HasColumnName("ID");
+            entity.Property(e => e.Customerid).HasColumnName("CUSTOMERID");
             entity.Property(e => e.Address)
                 .HasMaxLength(500)
                 .HasColumnName("ADDRESS");
+            entity.Property(e => e.Avatar)
+                .HasMaxLength(250)
+                .HasColumnName("AVATAR");
             entity.Property(e => e.CreatedBy).HasColumnName("CREATED_BY");
             entity.Property(e => e.CreatedDate)
                 .HasColumnType("datetime")
@@ -610,7 +609,7 @@ public partial class DevXuongMocContext : DbContext
                 .HasColumnName("EMAIL");
             entity.Property(e => e.Idcustomer).HasColumnName("IDCUSTOMER");
             entity.Property(e => e.Idorders)
-                .HasMaxLength(100)
+                .HasMaxLength(10)
                 .IsUnicode(false)
                 .IsFixedLength()
                 .HasColumnName("IDORDERS");
@@ -630,7 +629,7 @@ public partial class DevXuongMocContext : DbContext
                 .HasMaxLength(50)
                 .HasColumnName("PHONE");
             entity.Property(e => e.TotalMoney)
-                .HasColumnType("decimal(18, 0)")
+                .HasColumnType("decimal(18, 3)")
                 .HasColumnName("TOTAL_MONEY");
         });
 
@@ -639,21 +638,21 @@ public partial class DevXuongMocContext : DbContext
             entity.ToTable("ORDERDETAILS");
 
             entity.Property(e => e.Id).HasColumnName("ID");
-            entity.Property(e => e.Idord).HasColumnName("IDORD");
+            entity.Property(e => e.Idorders).HasColumnName("IDORDERS");
             entity.Property(e => e.Idproduct).HasColumnName("IDPRODUCT");
             entity.Property(e => e.Price)
-                .HasColumnType("decimal(18, 0)")
+                .HasColumnType("decimal(18, 3)")
                 .HasColumnName("PRICE");
             entity.Property(e => e.Qty).HasColumnName("QTY");
             entity.Property(e => e.ReturnQty).HasColumnName("RETURN_QTY");
             entity.Property(e => e.Total)
-                .HasColumnType("decimal(18, 0)")
+                .HasColumnType("decimal(18, 3)")
                 .HasColumnName("TOTAL");
         });
 
         modelBuilder.Entity<Partner>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__PARTNER__3214EC270EF69728");
+            entity.HasKey(e => e.Id).HasName("PK__PARTNER__3214EC278D4E4A7B");
 
             entity.ToTable("PARTNER");
 
@@ -696,13 +695,9 @@ public partial class DevXuongMocContext : DbContext
 
         modelBuilder.Entity<PaymentMethod>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__PAYMENT___3214EC2734267F5A");
-
             entity.ToTable("PAYMENT_METHOD");
 
-            entity.Property(e => e.Id)
-                .ValueGeneratedNever()
-                .HasColumnName("ID");
+            entity.Property(e => e.Id).HasColumnName("ID");
             entity.Property(e => e.CreatedDate)
                 .HasColumnType("datetime")
                 .HasColumnName("CREATED_DATE");
@@ -829,7 +824,7 @@ public partial class DevXuongMocContext : DbContext
 
         modelBuilder.Entity<Slide>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__SLIDES__3214EC272725C9E8");
+            entity.HasKey(e => e.Id).HasName("PK__SLIDES__3214EC273CEB598E");
 
             entity.ToTable("SLIDES");
 

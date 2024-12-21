@@ -1,0 +1,134 @@
+﻿@model DevXuongMoc.Models.Banner
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Areas/AdminQL/Views/Shared/Admin.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="text-center mb-4">
+        <h1 class="display-4 text-danger font-weight-bold">XÁC NHẬN XÓA</h1>
+        <p class="lead text-secondary">Bạn chắc chắn muốn xóa banner này không?</p>
+    </div>
+
+    <div class="card shadow-lg border-0 mb-5">
+        <div class="card-body">
+            <h4 class="card-title text-center text-info font-weight-bold">CHI TIẾT BANNER</h4>
+            <hr class="my-4"/>
+
+            <div class="row">
+                <!-- Left Column (First Half) -->
+                <div class="col-md-6">
+                    <!-- Each detail inside its own border -->
+                    <div class="border p-2 mb-3 rounded">
+                        <dl class="row">
+                            <dt class="col-sm-4 text-dark font-weight-bold">Hình ảnh</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.Image)</dd>
+                        </dl>
+                    </div>
+
+                    <div class="border p-2 mb-3 rounded">
+                        <dl class="row">
+                            <dt class="col-sm-4 text-dark font-weight-bold">Tiêu đề</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.Title)</dd>
+                        </dl>
+                    </div>
+
+                    <div class="border p-2 mb-3 rounded">
+                        <dl class="row">
+                            <dt class="col-sm-4 text-dark font-weight-bold">Phụ đề</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.SubTitle)</dd>
+                        </dl>
+                    </div>
+
+                    <div class="border p-2 mb-3 rounded">
+                        <dl class="row">
+                            <dt class="col-sm-4 text-dark font-weight-bold">URL</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.Urls)</dd>
+                        </dl>
+                    </div>
+                </div>
+
+                <!-- Right Column (Second Half) -->
+                <div class="col-md-6">
+                    <div class="border p-2 mb-3 rounded">
+                        <dl class="row">
+                            <dt class="col-sm-4 text-dark font-weight-bold">Thứ tự</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.Orders)</dd>
+                        </dl>
+                    </div>
+
+                    <div class="border p-2 mb-3 rounded">
+                        <dl class="row">
+                            <dt class="col-sm-4 text-dark font-weight-bold">Loại</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.Type)</dd>
+                        </dl>
+                    </div>
+
+                    <div class="border p-2 mb-3 rounded">
+                        <dl class="row">
+                            <dt class="col-sm-4 text-dark font-weight-bold">Ngày tạo</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.CreatedDate)</dd>
+                        </dl>
+                    </div>
+
+                    <div class="border p-2 mb-3 rounded">
+                        <dl class="row">
+                            <dt class="col-sm-4 text-dark font-weight-bold">Ngày cập nhật</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.UpdatedDate)</dd>
+                        </dl>
+                    </div>
+
+                    <div class="border p-2 mb-3 rounded">
+                        <dl class="row">
+                            <dt class="col-sm-4 text-dark font-weight-bold">Admin tạo</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.AdminCreated)</dd>
+                        </dl>
+                    </div>
+
+                    <div class="border p-2 mb-3 rounded">
+                        <dl class="row">
+                            <dt class="col-sm-4 text-dark font-weight-bold">Admin cập nhật</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.AdminUpdated)</dd>
+                        </dl>
+                    </div>
+
+                    <div class="border p-2 mb-3 rounded">
+                        <dl class="row">
+                            <dt class="col-sm-4 text-dark font-weight-bold">Ghi chú</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.Notes)</dd>
+                        </dl>
+                    </div>
+
+                    <div class="border p-2 mb-3 rounded">
+                        <dl class="row">
+                            <dt class="col-sm-4 text-dark font-weight-bold">Trạng thái</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.Status)</dd>
+                        </dl>
+                    </div>
+
+                    <div class="border p-2 mb-3 rounded">
+                        <dl class="row">
+                            <dt class="col-sm-4 text-dark font-weight-bold">Xóa</dt>
+                            <dd class="col-sm-8">@Html.DisplayFor(model => model.Isdelete)</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center">
+        <form asp-action="Delete" class="d-inline-block">
+            <input type="hidden" asp-for="Id" />
+            <button type="submit" class="btn btn-danger btn-lg mb-3">Xóa Banner</button>
+        </form>
+        <a asp-action="Index" class="btn btn-secondary btn-lg mb-3">Quay Lại Danh Sách</a>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

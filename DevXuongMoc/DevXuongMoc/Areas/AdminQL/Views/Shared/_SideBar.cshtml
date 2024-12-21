@@ -1,0 +1,146 @@
+﻿@using Microsoft.AspNetCore.Http;
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+<aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Brand Logo -->
+    <a href="~/home/index" class="brand-link">
+        <img src="~/dist/img/admin.jpg" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+        <span class="brand-text font-weight-bold text-white">XƯỞNG MỘC</span>
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar" style="background-color: #343a40;">
+
+        <!-- Sidebar Menu -->
+        <nav class="mt-2">
+            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                <!-- Dashboard -->
+                <li class="nav-item">
+                    <a href="~/adminql/dashboard" class="nav-link">
+                        <i class="nav-icon fas fa-tachometer-alt"></i>
+                        <p class="text-white">
+                            Bảng điều khiển
+                        </p>
+                    </a>
+                </li>
+
+                <!-- Admin Users -->
+                <li class="nav-item">
+                    <a href="/adminql/adminusers" class="nav-link">
+                        <i class="nav-icon fas fa-users-cog"></i>
+                        <p class="text-white">
+                            Tài khoản admin
+                        </p>
+                    </a>
+                </li>
+
+                <!-- Product Management -->
+                <li class="nav-item">
+                    <a href="/adminql/products" class="nav-link">
+                        <i class="nav-icon fas fa-box"></i>
+                        <p class="text-white">
+                            Quản lý sản phẩm
+                        </p>
+                    </a>
+                </li>
+
+                <!-- Category Management -->
+                <li class="nav-item">
+                    <a href="/adminql/categories" class="nav-link">
+                        <i class="nav-icon fas fa-th-large"></i>
+                        <p class="text-white">
+                            Quản lý danh mục
+                        </p>
+                    </a>
+                </li>
+
+                <!-- Banner Management -->
+                <li class="nav-item">
+                    <a href="/adminql/banners" class="nav-link">
+                        <i class="nav-icon fas fa-image"></i>
+                        <p class="text-white">
+                            Quản lý Banner
+                        </p>
+                    </a>
+                </li>
+
+                <!-- News Category -->
+                <li class="nav-item">
+                    <a href="/adminql/news" class="nav-link">
+                        <i class="nav-icon fas fa-newspaper"></i>
+                        <p class="text-white">
+                            Danh mục tin tức
+                        </p>
+                    </a>
+                </li>
+
+                <!-- Partners Management -->
+                <li class="nav-item">
+                    <a href="/adminql/partners" class="nav-link">
+                        <i class="nav-icon fas fa-handshake"></i>
+                        <p class="text-white">
+                            Quản lý đối tác
+                        </p>
+                    </a>
+                </li>
+
+                <!-- Contacts Management -->
+                <li class="nav-item">
+                    <a href="/adminql/contacts" class="nav-link">
+                        <i class="nav-icon fas fa-address-book"></i>
+                        <p class="text-white">
+                            Danh sách liên hệ
+                        </p>
+                    </a>
+                </li>
+
+                <!-- Product Category Submenu -->
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fas fa-cogs"></i>
+                        <p class="text-white">
+                            Quản lý sản phẩm
+                            <i class="fas fa-angle-left right"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="~/adminql/products" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p class="text-white">Danh mục sản phẩm</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="~/adminql/materials" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p class="text-white">Danh sách nguyên vật liệu</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
+        </nav>
+        <!-- /.sidebar-menu -->
+        <!-- Sidebar User Panel -->
+        <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+            <div class="image">
+                <img src="~/dist/img/user.jpg" class="img-circle elevation-2" alt="User Image" style="width: 55px; height: 55px">
+            </div>
+            <div class="info">
+                @{
+                    if (HttpContextAccessor.HttpContext.Session.GetString("AdminLogin") != null)
+                    {
+                        <a href="#" class="d-block text-white">@HttpContextAccessor.HttpContext.Session.GetString("AdminLogin")</a>
+                        <a asp-action="Logout" asp-controller="Login" class="d-block text-danger">Đăng xuất</a>
+                    }
+                    else
+                    {
+                        <a href="#" class="d-block text-white">Ruby</a>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+    <!-- /.sidebar -->
+</aside>

@@ -5,7 +5,7 @@ namespace Lab09._1.Models;
 
 public partial class PaymentMethod
 {
-    public long Id { get; set; }
+    public int Id { get; set; }
 
     public string? Name { get; set; }
 

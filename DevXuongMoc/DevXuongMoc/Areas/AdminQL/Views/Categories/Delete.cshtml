@@ -1,0 +1,80 @@
+﻿@model DevXuongMoc.Models.Category
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Areas/AdminQL/Views/Shared/Admin.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="text-center mb-4">
+        <h1 class="display-4 text-danger">XÁC NHẬN XÓA</h1>
+        <p class="lead text-secondary">Bạn chắc chắn muốn xóa danh mục này không?</p>
+    </div>
+
+    <div class="card shadow-sm border-0 mb-4">
+        <div class="card-body">
+            <h4 class="card-title text-center text-info">CHI TIẾT DANH MỤC</h4>
+            <hr />
+            <dl class="row">
+                <dt class="col-sm-3 text-bold">Tiêu đề</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Title)</dd>
+
+                <dt class="col-sm-3 text-bold">Biểu tượng</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Icon)</dd>
+
+                <dt class="col-sm-3 text-bold">Tiêu đề phụ</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.MateTitle)</dd>
+
+                <dt class="col-sm-3 text-bold">Từ khóa SEO</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.MetaKeyword)</dd>
+
+                <dt class="col-sm-3 text-bold">Mô tả SEO</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.MetaDescription)</dd>
+
+                <dt class="col-sm-3 text-bold">Slug</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Slug)</dd>
+
+                <dt class="col-sm-3 text-bold">Thứ tự</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Orders)</dd>
+
+                <dt class="col-sm-3 text-bold">Danh mục cha</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Parentid)</dd>
+
+                <dt class="col-sm-3 text-bold">Ngày tạo</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.CreatedDate)</dd>
+
+                <dt class="col-sm-3 text-bold">Ngày cập nhật</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.UpdatedDate)</dd>
+
+                <dt class="col-sm-3 text-bold">Admin tạo</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.AdminCreated)</dd>
+
+                <dt class="col-sm-3 text-bold">Admin cập nhật</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.AdminUpdated)</dd>
+
+                <dt class="col-sm-3 text-bold">Ghi chú</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Notes)</dd>
+
+                <dt class="col-sm-3 text-bold">Trạng thái</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Status)</dd>
+
+                <dt class="col-sm-3 text-bold">Xóa</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Isdelete)</dd>
+            </dl>
+        </div>
+    </div>
+
+    <div class="text-center">
+        <form asp-action="Delete" class="d-inline-block">
+            <input type="hidden" asp-for="Id" />
+            <button type="submit" class="btn btn-danger btn-lg mb-3">Xóa Danh Mục</button>
+        </form>
+        <a asp-action="Index" class="btn btn-secondary btn-lg mb-3">Quay Lại Danh Sách</a>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

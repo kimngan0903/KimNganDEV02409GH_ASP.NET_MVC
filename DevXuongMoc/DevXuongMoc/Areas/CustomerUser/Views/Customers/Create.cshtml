@@ -1,0 +1,98 @@
+﻿@model DevXuongMoc.Models.Customer
+@{
+    ViewData["Title"] = "Đăng ký";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .text-center button:hover {
+        background-color: burlywood;
+    }
+</style>
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        <ul>
+            @foreach (var modelState in ViewData.ModelState.Values)
+            {
+                foreach (var error in modelState.Errors)
+                {
+                    <li>@error.ErrorMessage</li>
+                }
+            }
+        </ul>
+    </div>
+}
+<body class="bg-light" style="background: url('https://vattumro.com/wp-content/uploads/vat-tu-nganh-go-tai-Hai-Phong.jpg') no-repeat center center fixed; background-size: cover;">
+    <div class="d-flex justify-content-center align-items-center vh-100" style="margin-top: 6rem">
+        <section class="shadow-lg p-4 rounded bg-white" style="width: 100%; max-width: 500px; padding: 20px;">
+            <h2 class="text-center mb-3" style="font-size: 24px; color: #af6e1b">Welcome!</h2>
+            <p class="text-center text-muted mb-3" style="font-size: 14px;">Hãy đăng ký tài khoản mới</p>
+            <div class="container-fluid">
+                <div class="row">
+
+                    <!-- Form column -->
+                    <div class="col-md-12">
+                        <form asp-action="Create" id="registerForm" method="post">
+                            <!-- Name input -->
+                            <div class="form-outline mb-3">
+                                <label for="name" class="form-label" style="color: #af6e1b">Họ tên</label>
+                                <input type="text" id="name" name="name" class="custom-input form-control form-control-sm" placeholder="Nhập họ tên" required />
+                            </div>
+
+                            <!-- Email input -->
+                            <div class="form-outline mb-3">
+                                <label for="email" class="form-label" style="color: #af6e1b">Email</label>
+                                <input type="email" id="email" name="email" class="custom-input form-control form-control-sm" placeholder="Nhập email của bạn" required />
+                            </div>
+
+                            <!-- Password input -->
+                            <div class="form-outline mb-3">
+                                <label for="password" class="form-label" style="color: #af6e1b">Mật khẩu</label>
+                                <input type="password" id="password" name="password" class="custom-input form-control form-control-sm" placeholder="Nhập mật khẩu" required />
+                            </div>
+
+                            <!-- Address input -->
+                            <div class="form-outline mb-3">
+                                <label for="address" class="form-label" style="color: #af6e1b">Địa chỉ</label>
+                                <input type="text" id="address" name="address" class="custom-input form-control form-control-sm" placeholder="Nhập địa chỉ" required />
+                            </div>
+
+                            <!-- Phone input -->
+                            <div class="form-outline mb-3">
+                                <label for="phone" class="form-label" style="color: #af6e1b">Số điện thoại</label>
+                                <input type="tel" id="phone" name="phone" class="custom-input form-control form-control-sm" placeholder="Nhập số điện thoại" required />
+                            </div>
+
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-info btn-sm w-100 rounded-pill shadow-sm">
+                                    Đăng ký
+                                </button>
+                            </div>
+                            <div class="text-center mt-3">
+                                <p class="small fw-bold text-muted" style="font-size: 14px;">
+                                    Bạn đã có tài khoản?
+                                    <a asp-controller="Login" asp-action="Index" class="text-danger fw-bold">Đăng nhập</a>
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Bootstrap validation
+        (() => {
+            'use strict';
+            const form = document.querySelector('#registerForm');
+            form.addEventListener('submit', (event) => {
+                if (!form.checkValidity()) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                }
+                form.classList.add('was-validated');
+            }, false);
+        })();
+    </script>
+</body>
